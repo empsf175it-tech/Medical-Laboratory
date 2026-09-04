@@ -6,7 +6,9 @@
   <title>Vitalis Labs — Precision Medical Diagnostic & Pathology Center</title>
   <meta name="description" content="Vitalis Labs delivers next-generation clinical pathology, molecular diagnostics, and preventive health screenings with unmatched accuracy, rapid digital reports, and convenient home sample collection.">
   <meta name="keywords" content="medical laboratory, blood test, diagnostic center, pathology lab, health checkup packages, molecular diagnostics, home sample collection, book lab test online">
-  <meta name="author" content="Vitalis Labs">
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="shortcut icon" href="favicon.svg">
   
   <!-- Open Graph / Social Meta -->
   <meta property="og:type" content="website">
@@ -42,7 +44,7 @@
   <!-- STICKY MAIN NAVIGATION HEADER (Exact Same 5 Navigation Links) -->
   <header class="vitalis-navbar sticky-top">
     <div class="container">
-      <nav class="navbar navbar-expand-lg p-0" id="vitalisMainNav">
+      <nav class="navbar navbar-expand-xl p-0" id="vitalisMainNav">
         <!-- Brand Logo -->
         <a class="navbar-brand navbar-brand-vitalis" href="#home">
           <div class="brand-logo-icon">
@@ -60,14 +62,14 @@
         </a>
 
         <!-- Right Side Nav Actions & Toggle -->
-        <div class="d-flex align-items-center gap-2 order-lg-3">
+        <div class="d-flex align-items-center gap-2 order-xl-3">
           <!-- Theme Switcher -->
           <button class="theme-toggle-btn" aria-label="Toggle theme mode" title="Toggle Light / Dark Mode">
             <i class="bi bi-moon-stars-fill"></i>
           </button>
 
-          <!-- Book a Test Primary CTA -->
-          <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary d-none d-sm-inline-flex">
+          <!-- Book a Test Primary CTA (Desktop only, inside offcanvas menu for tab/mobile) -->
+          <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary d-none d-xl-inline-flex">
             <i class="bi bi-calendar2-plus"></i> Book a Test
           </a>
 
@@ -78,7 +80,7 @@
         </div>
 
         <!-- Desktop Navigation Links (Same 5 Nav Items) -->
-        <div class="collapse navbar-collapse justify-content-center order-lg-2">
+        <div class="collapse navbar-collapse justify-content-center order-xl-2">
           <ul class="navbar-nav gap-1">
             <li class="nav-item">
               <a class="nav-link nav-link-vitalis active" aria-current="page" href="#home">Home</a>
@@ -103,7 +105,7 @@
 
   <!-- MOBILE OFFCANVAS NAVIGATION MENU (Same 5 Nav Items) -->
   <div class="offcanvas offcanvas-end" tabindex="-1" id="vitalisOffcanvasNav" aria-labelledby="vitalisOffcanvasNavLabel">
-    <div class="offcanvas-header border-bottom">
+    <div class="offcanvas-header border-bottom d-flex justify-content-between align-items-center w-100">
       <div class="navbar-brand-vitalis">
         <div class="brand-logo-icon">
           <i class="bi bi-activity text-white"></i>
@@ -112,31 +114,31 @@
           <span class="brand-title">VITALIS<span>LABS</span></span>
         </div>
       </div>
-      <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      <button type="button" class="btn-close-vitalis shadow-none ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg"></i></button>
     </div>
-    <div class="offcanvas-body d-flex flex-column justify-content-between p-4">
-      <ul class="navbar-nav gap-2">
-        <li class="nav-item">
-          <a class="nav-link nav-link-vitalis active fs-5" href="#home" data-bs-dismiss="offcanvas">Home</a>
+    <div class="offcanvas-body d-flex flex-column justify-content-between p-4 text-center">
+      <ul class="navbar-nav gap-2 align-items-center w-100">
+        <li class="nav-item w-100 d-flex justify-content-center">
+          <a class="nav-link nav-link-vitalis active fs-5 text-center" href="#home" data-bs-dismiss="offcanvas">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-vitalis fs-5" href="#about" data-bs-dismiss="offcanvas">About</a>
+        <li class="nav-item w-100 d-flex justify-content-center">
+          <a class="nav-link nav-link-vitalis fs-5 text-center" href="#about" data-bs-dismiss="offcanvas">About</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-vitalis fs-5" href="#tests-services" data-bs-dismiss="offcanvas">Tests & Services</a>
+        <li class="nav-item w-100 d-flex justify-content-center">
+          <a class="nav-link nav-link-vitalis fs-5 text-center" href="#tests-services" data-bs-dismiss="offcanvas">Tests & Services</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-vitalis fs-5" href="#health-packages" data-bs-dismiss="offcanvas">Health Packages</a>
+        <li class="nav-item w-100 d-flex justify-content-center">
+          <a class="nav-link nav-link-vitalis fs-5 text-center" href="#health-packages" data-bs-dismiss="offcanvas">Health Packages</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link nav-link-vitalis fs-5" href="#contact" data-bs-dismiss="offcanvas">Contact</a>
+        <li class="nav-item w-100 d-flex justify-content-center">
+          <a class="nav-link nav-link-vitalis fs-5 text-center" href="#contact" data-bs-dismiss="offcanvas">Contact</a>
         </li>
       </ul>
-      <div class="pt-4 border-top">
+      <div class="pt-4 border-top text-center w-100">
         <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary w-100 mb-3" data-bs-dismiss="offcanvas">
           <i class="bi bi-calendar2-plus"></i> Book a Test
         </a>
-        <p class="small text-muted mb-0"><i class="bi bi-telephone-fill text-secondary me-2"></i>+1 (800) 555-0199</p>
+        <p class="small text-muted mb-0 text-center"><i class="bi bi-telephone-fill text-secondary me-2"></i>+1 (800) 555-0199</p>
       </div>
     </div>
   </div>
@@ -148,7 +150,7 @@
     <div class="container">
       <div class="row align-items-center g-5">
         <!-- Hero Left Column -->
-        <div class="col-lg-6 hero-content">
+        <div class="col-lg-6 hero-content text-center text-lg-start">
           <span class="badge-vitalis">
             <i class="bi bi-shield-fill-check"></i> Advanced Diagnostics • Trusted Results
           </span>
@@ -194,69 +196,9 @@
         <!-- Hero Right Column (Layered Visual Composition) -->
         <div class="col-lg-6 hero-visual-box">
           <div class="hero-main-card">
-            <!-- Modern Clinical Graphic Representation -->
+            <!-- Modern Clinical Laboratory Image -->
             <div class="hero-media-wrapper">
-              <svg class="lab-illustration" viewBox="0 0 600 380" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <!-- Background Grid / Molecule Matrix -->
-                <defs>
-                  <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#00A896" stop-opacity="0.8"/>
-                    <stop offset="100%" stop-color="#0A2540" stop-opacity="0.95"/>
-                  </linearGradient>
-                  <linearGradient id="tubeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
-                    <stop offset="0%" stop-color="#38BDF8"/>
-                    <stop offset="100%" stop-color="#00A896"/>
-                  </linearGradient>
-                </defs>
-                
-                <!-- Circuit & DNA wave lines -->
-                <path d="M50 190 Q150 90, 250 190 T450 190 T600 190" stroke="rgba(255,255,255,0.15)" stroke-width="2" fill="none"/>
-                <path d="M50 190 Q150 290, 250 190 T450 190 T600 190" stroke="rgba(0,168,150,0.3)" stroke-width="2" fill="none"/>
-                
-                <!-- Automated Laboratory Centerpiece -->
-                <rect x="160" y="80" width="280" height="220" rx="16" fill="rgba(10,37,64,0.7)" stroke="rgba(0,168,150,0.5)" stroke-width="2"/>
-                <rect x="180" y="105" width="240" height="75" rx="8" fill="rgba(255,255,255,0.08)"/>
-                
-                <!-- Digital Analyzer Screen Visualization -->
-                <path d="M195 145 L225 130 L250 155 L285 120 L320 145 L360 115 L400 135" stroke="#00D4BE" stroke-width="3" fill="none"/>
-                <circle cx="285" cy="120" r="4" fill="#FFFFFF"/>
-                <circle cx="360" cy="115" r="4" fill="#00D4BE"/>
-
-                <!-- Specimen Sample Tubes in Rack -->
-                <rect x="190" y="200" width="16" height="70" rx="8" fill="url(#tubeGrad)"/>
-                <rect x="220" y="210" width="16" height="60" rx="8" fill="#EF4444"/>
-                <rect x="250" y="195" width="16" height="75" rx="8" fill="#F59E0B"/>
-                <rect x="280" y="205" width="16" height="65" rx="8" fill="url(#tubeGrad)"/>
-                <rect x="310" y="200" width="16" height="70" rx="8" fill="#8B5CF6"/>
-                <rect x="340" y="215" width="16" height="55" rx="8" fill="#10B981"/>
-                <rect x="370" y="205" width="16" height="65" rx="8" fill="url(#tubeGrad)"/>
-                
-                <rect x="175" y="255" width="230" height="15" rx="4" fill="rgba(255,255,255,0.2)"/>
-              </svg>
-            </div>
-
-            <!-- Floating Card Top Right: Realtime Diagnostic Status -->
-            <div class="floating-card floating-card-top">
-              <div class="d-flex align-items-center gap-3">
-                <span class="pulse-indicator"></span>
-                <div>
-                  <div class="small text-muted fw-semibold">Automated Analyzer #04</div>
-                  <div class="fw-bold text-main" style="font-size: 0.95rem;">99.8% Accuracy Index</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Floating Card Bottom Left: Sample Track Card -->
-            <div class="floating-card floating-card-bottom">
-              <div class="d-flex align-items-center gap-3">
-                <div class="author-avatar" style="background: var(--primary-subtle); color: var(--primary);">
-                  <i class="bi bi-qr-code-scan"></i>
-                </div>
-                <div>
-                  <div class="small text-muted">Specimen Barcode Tracking</div>
-                  <div class="fw-bold text-secondary" style="font-size: 0.9rem;">Sample Verified & Sealed</div>
-                </div>
-              </div>
+              <img src="assets/images/hero-lab.jpg" alt="Modern Diagnostic Medical Laboratory with Technicians and Automated Analyzers" class="hero-img">
             </div>
           </div>
         </div>
@@ -267,8 +209,8 @@
   <!-- QUICK ACTION CARDS -->
   <section class="quick-actions-bar">
     <div class="container">
-      <div class="row g-3">
-        <div class="col-sm-6 col-lg-3">
+      <div class="row g-3 justify-content-center">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <a href="#book-a-test" class="quick-action-card">
             <div class="quick-action-icon">
               <i class="bi bi-calendar2-check"></i>
@@ -279,7 +221,7 @@
             </div>
           </a>
         </div>
-        <div class="col-sm-6 col-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <a href="#tests-services" class="quick-action-card">
             <div class="quick-action-icon">
               <i class="bi bi-search-heart"></i>
@@ -290,7 +232,7 @@
             </div>
           </a>
         </div>
-        <div class="col-sm-6 col-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <a href="#health-packages" class="quick-action-card">
             <div class="quick-action-icon">
               <i class="bi bi-heart-pulse"></i>
@@ -301,7 +243,7 @@
             </div>
           </a>
         </div>
-        <div class="col-sm-6 col-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <a href="#reportAccessSection" class="quick-action-card">
             <div class="quick-action-icon">
               <i class="bi bi-file-earmark-arrow-down"></i>
@@ -364,7 +306,7 @@
 
       <!-- Story & Quality Standards -->
       <div class="row align-items-center g-5 mb-5">
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-center text-lg-start">
           <span class="badge-vitalis mb-2">Our Foundation</span>
           <h3 class="h2 fw-bold mb-3">Bridging Clinical Science and Patient-Centric Care</h3>
           <p class="text-muted mb-3">
@@ -376,13 +318,13 @@
 
           <div class="row g-3">
             <div class="col-6">
-              <div class="p-3 rounded-3 bg-subtle border">
+              <div class="p-3 rounded-3 bg-subtle border hover-card text-center text-sm-start">
                 <h4 class="h3 fw-bold text-secondary mb-1">500+</h4>
                 <p class="small text-muted mb-0">Routine & Specialized Diagnostic Tests</p>
               </div>
             </div>
             <div class="col-6">
-              <div class="p-3 rounded-3 bg-subtle border">
+              <div class="p-3 rounded-3 bg-subtle border hover-card text-center text-sm-start">
                 <h4 class="h3 fw-bold text-primary mb-1">6-12h</h4>
                 <p class="small text-muted mb-0">Average Routine Test Turnaround Time</p>
               </div>
@@ -391,28 +333,28 @@
         </div>
 
         <div class="col-lg-6">
-          <div class="p-4 p-md-5 rounded-4 border bg-surface shadow-sm position-relative overflow-hidden">
-            <div class="d-flex align-items-center gap-3 mb-4">
-              <div class="author-avatar" style="width: 54px; height: 54px; font-size: 1.4rem;">
+          <div class="p-4 p-md-5 rounded-4 border bg-surface shadow-sm position-relative overflow-hidden hover-card text-center text-sm-start">
+            <div class="d-flex flex-column flex-sm-row align-items-center align-items-sm-start text-center text-sm-start gap-3 mb-4">
+              <div class="author-avatar flex-shrink-0" style="width: 54px; height: 54px; font-size: 1.4rem;">
                 <i class="bi bi-shield-lock-fill"></i>
               </div>
               <div>
-                <h4 class="h5 fw-bold mb-0">Certified Laboratory Standard</h4>
+                <h4 class="h5 fw-bold mb-1">Certified Laboratory Standard</h4>
                 <span class="small text-muted">Strict adherence to clinical QA/QC guidelines</span>
               </div>
             </div>
-            <p class="small text-muted mb-4">
+            <p class="small text-muted mb-4 text-center text-sm-start">
               Our facilities comply with ISO-aligned quality protocols and participate in national external quality assurance programs (EQAS) to validate daily assay performance.
             </p>
-            <ul class="list-unstyled mb-0">
-              <li class="d-flex align-items-center gap-2 mb-2 small text-main">
-                <i class="bi bi-check-circle-fill text-success"></i> Multi-level internal calibration every 12 hours
+            <ul class="list-unstyled mb-0 text-start d-inline-block d-sm-block">
+              <li class="d-flex align-items-start gap-2 mb-2 small text-main">
+                <i class="bi bi-check-circle-fill text-success flex-shrink-0 mt-1"></i> <span>Multi-level internal calibration every 12 hours</span>
               </li>
-              <li class="d-flex align-items-center gap-2 mb-2 small text-main">
-                <i class="bi bi-check-circle-fill text-success"></i> Automated barcode verification from collection to report
+              <li class="d-flex align-items-start gap-2 mb-2 small text-main">
+                <i class="bi bi-check-circle-fill text-success flex-shrink-0 mt-1"></i> <span>Automated barcode verification from collection to report</span>
               </li>
-              <li class="d-flex align-items-center gap-2 small text-main">
-                <i class="bi bi-check-circle-fill text-success"></i> Dual-signoff by board-certified MD pathologists for critical flags
+              <li class="d-flex align-items-start gap-2 small text-main">
+                <i class="bi bi-check-circle-fill text-success flex-shrink-0 mt-1"></i> <span>Dual-signoff by board-certified MD pathologists for critical flags</span>
               </li>
             </ul>
           </div>
@@ -422,9 +364,9 @@
       <!-- Mission & Vision Cards -->
       <div class="row g-4 mb-5">
         <div class="col-lg-6">
-          <div class="p-4 p-md-5 rounded-4 h-100 bg-surface border shadow-sm d-flex flex-column justify-content-between">
+          <div class="p-4 p-md-5 rounded-4 h-100 bg-surface border shadow-sm d-flex flex-column justify-content-between hover-card text-center text-sm-start">
             <div>
-              <div class="quick-action-icon mb-4" style="background: var(--primary-subtle); color: var(--primary);">
+              <div class="quick-action-icon mb-4 mx-auto mx-sm-0" style="background: var(--primary-subtle); color: var(--secondary);">
                 <i class="bi bi-bullseye fs-3"></i>
               </div>
               <span class="badge-vitalis badge-vitalis-primary mb-2">Our Mission</span>
@@ -433,16 +375,16 @@
                 To deliver clinical laboratory services with uncompromising accuracy, rapid turnaround, and frictionless digital convenience, empowering patients and physicians with the clarity needed to optimize health outcomes.
               </p>
             </div>
-            <div class="mt-4 pt-3 border-top d-flex align-items-center gap-2 text-secondary fw-semibold small">
+            <div class="mt-4 pt-3 border-top d-flex align-items-center justify-content-center justify-content-sm-start gap-2 text-secondary fw-semibold small">
               <i class="bi bi-arrow-right-circle-fill"></i> Continuous Diagnostic Innovation
             </div>
           </div>
         </div>
 
         <div class="col-lg-6">
-          <div class="p-4 p-md-5 rounded-4 h-100 text-white d-flex flex-column justify-content-between" style="background: linear-gradient(135deg, #0A2540 0%, #163E66 100%); border-radius: var(--radius-xl);">
+          <div class="p-4 p-md-5 rounded-4 h-100 text-white d-flex flex-column justify-content-between hover-card text-center text-sm-start" style="background: linear-gradient(135deg, #0A2540 0%, #163E66 100%); border-radius: var(--radius-xl);">
             <div>
-              <div class="quick-action-icon mb-4" style="background: rgba(0, 212, 190, 0.2); color: #00D4BE;">
+              <div class="quick-action-icon mb-4 mx-auto mx-sm-0" style="background: rgba(0, 212, 190, 0.2); color: #00D4BE;">
                 <i class="bi bi-eye-fill fs-3"></i>
               </div>
               <span class="badge-vitalis mb-2" style="background: rgba(0, 212, 190, 0.2); color: #00D4BE; border-color: rgba(0, 212, 190, 0.3);">Our Vision</span>
@@ -451,7 +393,7 @@
                 To be the most trusted and technologically advanced diagnostic center network, pioneering preventative molecular screening, AI-assisted pathology, and effortless doorstep sample accessibility.
               </p>
             </div>
-            <div class="mt-4 pt-3 border-top border-white-50 d-flex align-items-center gap-2 text-secondary fw-semibold small">
+            <div class="mt-4 pt-3 border-top border-white-50 d-flex align-items-center justify-content-center justify-content-sm-start gap-2 text-secondary fw-semibold small">
               <i class="bi bi-arrow-right-circle-fill text-secondary"></i> Global Quality Benchmarking
             </div>
           </div>
@@ -465,38 +407,38 @@
           <h3 class="h2 fw-bold">The Values That Drive Every Test</h3>
         </div>
 
-        <div class="row g-3">
-          <div class="col-md-4 col-sm-6">
-            <div class="category-card">
-              <div class="category-icon-box"><i class="bi bi-crosshair"></i></div>
+        <div class="row g-3 justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="category-card text-center text-sm-start">
+              <div class="category-icon-box mx-auto mx-sm-0"><i class="bi bi-crosshair"></i></div>
               <h4 class="category-title">1. Uncompromising Accuracy</h4>
               <p class="category-desc">Precision is our benchmark. We maintain multi-stage validation checks to guarantee trustworthy assay numbers.</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="category-card">
-              <div class="category-icon-box"><i class="bi bi-shield-check"></i></div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="category-card text-center text-sm-start">
+              <div class="category-icon-box mx-auto mx-sm-0"><i class="bi bi-shield-check"></i></div>
               <h4 class="category-title">2. Absolute Integrity</h4>
               <p class="category-desc">Transparent reporting, ethical testing protocols, and complete patient confidentiality at all times.</p>
             </div>
           </div>
-          <div class="col-md-4 col-sm-6">
-            <div class="category-card">
-              <div class="category-icon-box"><i class="bi bi-heart-pulse"></i></div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="category-card text-center text-sm-start">
+              <div class="category-icon-box mx-auto mx-sm-0"><i class="bi bi-heart-pulse"></i></div>
               <h4 class="category-title">3. Patient First Mindset</h4>
               <p class="category-desc">Gentle sample collection, prompt communication, and affordable preventive checkup options.</p>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6">
-            <div class="category-card">
-              <div class="category-icon-box"><i class="bi bi-cpu"></i></div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="category-card text-center text-sm-start">
+              <div class="category-icon-box mx-auto mx-sm-0"><i class="bi bi-cpu"></i></div>
               <h4 class="category-title">4. Technology & Innovation</h4>
               <p class="category-desc">Embracing automated chemistry analyzers, digital pathology, and modern molecular diagnostics.</p>
             </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="category-card">
-              <div class="category-icon-box"><i class="bi bi-patch-check-fill"></i></div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="category-card text-center text-sm-start">
+              <div class="category-icon-box mx-auto mx-sm-0"><i class="bi bi-patch-check-fill"></i></div>
               <h4 class="category-title">5. Continuous Quality Culture</h4>
               <p class="category-desc">Rigorous internal and external proficiency testing calibrated against international pathology benchmarks.</p>
             </div>
@@ -512,8 +454,8 @@
           <p class="text-muted small">Led by experienced MD Pathologists, Medical Biochemists, and Certified Laboratory Technologists.</p>
         </div>
 
-        <div class="row g-4">
-          <div class="col-md-4">
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="category-card text-center align-items-center">
               <div class="author-avatar mb-3" style="width: 80px; height: 80px; font-size: 1.75rem; background: var(--secondary-light); color: var(--secondary);">
                 <i class="bi bi-person-fill"></i>
@@ -524,9 +466,9 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="category-card text-center align-items-center">
-              <div class="author-avatar mb-3" style="width: 80px; height: 80px; font-size: 1.75rem; background: var(--primary-subtle); color: var(--primary);">
+              <div class="author-avatar mb-3" style="width: 80px; height: 80px; font-size: 1.75rem; background: var(--primary-subtle); color: var(--secondary);">
                 <i class="bi bi-person-fill"></i>
               </div>
               <h4 class="h5 fw-bold mb-1">Dr. Elena Rossi, PhD</h4>
@@ -535,7 +477,7 @@
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="category-card text-center align-items-center">
               <div class="author-avatar mb-3" style="width: 80px; height: 80px; font-size: 1.75rem; background: var(--secondary-light); color: var(--secondary);">
                 <i class="bi bi-person-fill"></i>
@@ -594,7 +536,7 @@
       </div>
 
       <!-- Test Catalog Grid -->
-      <div class="row g-4" id="testsGridContainer">
+      <div class="row g-4 justify-content-center" id="testsGridContainer">
 
         <!-- Test 1: CBC -->
         <div class="col-lg-4 col-md-6 test-item-wrapper" data-category="hematology">
@@ -902,7 +844,7 @@
       </div>
 
       <!-- 6 Health Packages Grid -->
-      <div class="row g-4 align-items-stretch mb-5">
+      <div class="row g-4 align-items-stretch justify-content-center mb-5">
         <!-- Package 1: Essential Health Check -->
         <div class="col-lg-4 col-md-6">
           <div class="package-card h-100 d-flex flex-column">
@@ -1166,7 +1108,7 @@
         </p>
       </div>
 
-      <div class="row g-4 mb-5">
+      <div class="row g-4 mb-5 justify-content-center">
         <div class="col-md-6 col-lg-3">
           <div class="timeline-step-card">
             <div class="step-number-badge">01</div>
@@ -1200,7 +1142,7 @@
       <!-- Home Collection Banner -->
       <div class="home-collection-banner">
         <div class="row align-items-center g-4">
-          <div class="col-lg-7">
+          <div class="col-lg-7 text-center text-lg-start">
             <span class="badge-vitalis mb-3" style="background: rgba(0,212,190,0.2); color: #00D4BE; border-color: rgba(0,212,190,0.3);">
               <i class="bi bi-house-door-fill"></i> Doorstep Convenience
             </span>
@@ -1236,15 +1178,13 @@
           </div>
 
           <div class="col-lg-5 text-center">
-            <div class="p-4 rounded-4" style="background: rgba(255, 255, 255, 0.08); backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.15);">
-              <div class="d-inline-flex align-items-center justify-content-center mb-3 text-secondary" style="font-size: 3rem;">
-                <i class="bi bi-person-badge"></i>
-              </div>
-              <h3 class="h5 text-white fw-bold">Certified Phlebotomy Fleet</h3>
-              <p class="small text-white-50 mb-3">Trained for gentle, single-prick venipuncture across pediatric to geriatric patients.</p>
-              <div class="d-flex justify-content-center gap-2">
-                <span class="badge bg-secondary">Cold Chain Transit</span>
-                <span class="badge bg-secondary">GPS Monitored</span>
+            <div class="home-collection-media-box">
+              <img src="assets/images/doorstep-collection.jpg" alt="Doorstep Health Checkup & Home Sample Collection" class="img-fluid">
+              <div class="position-absolute bottom-0 start-0 end-0 p-3 text-white" style="background: linear-gradient(to top, rgba(7, 13, 24, 0.88) 0%, rgba(7, 13, 24, 0) 100%);">
+                <div class="d-flex justify-content-center gap-2">
+                  <span class="badge bg-secondary"><i class="bi bi-snow me-1"></i> Cold Chain Transit</span>
+                  <span class="badge bg-secondary"><i class="bi bi-geo-alt-fill me-1"></i> GPS Monitored</span>
+                </div>
               </div>
             </div>
           </div>
@@ -1358,7 +1298,7 @@
 
                   <!-- Option 2 -->
                   <div class="service-type-option" data-service="Health Package">
-                    <div class="quick-action-icon mx-auto mb-3" style="background: var(--primary-subtle); color: var(--primary);">
+                    <div class="quick-action-icon mx-auto mb-3" style="background: var(--primary-subtle); color: var(--secondary);">
                       <i class="bi bi-heart-pulse-fill fs-3"></i>
                     </div>
                     <h4 class="h5 fw-bold mb-1">Health Checkup Package</h4>
@@ -1580,11 +1520,11 @@
               </div>
 
               <!-- Wizard Controls (Prev & Next) -->
-              <div class="d-flex justify-content-between align-items-center mt-5 pt-3 border-top">
-                <button type="button" class="btn-vitalis btn-vitalis-outline" id="wizardPrevBtn" style="visibility: hidden;">
+              <div class="wizard-controls-bar d-flex flex-column flex-sm-row justify-content-center justify-content-lg-between align-items-center gap-3 mt-5 pt-3 border-top">
+                <button type="button" class="btn-vitalis btn-vitalis-outline order-2 order-sm-1" id="wizardPrevBtn" style="display: none; visibility: hidden;">
                   <i class="bi bi-arrow-left me-1"></i> Back
                 </button>
-                <button type="button" class="btn-vitalis btn-vitalis-primary" id="wizardNextBtn">
+                <button type="button" class="btn-vitalis btn-vitalis-primary order-1 order-sm-2" id="wizardNextBtn">
                   Continue to Next Step <i class="bi bi-arrow-right ms-1"></i>
                 </button>
               </div>
@@ -1640,7 +1580,7 @@
   <section class="section-py">
     <div class="container">
       <div class="row align-items-center g-5 mb-5">
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-center text-lg-start">
           <span class="badge-vitalis mb-2">The Vitalis Difference</span>
           <h2 class="section-title">Why Patients & Physicians Trust Vitalis Labs</h2>
           <p class="text-muted mb-4">
@@ -1648,39 +1588,39 @@
           </p>
 
           <div class="row g-3">
-            <div class="col-sm-6">
-              <div class="d-flex align-items-start gap-2">
-                <i class="bi bi-check-circle-fill text-secondary fs-5"></i>
+            <div class="col-sm-6 text-start">
+              <div class="d-flex align-items-start gap-2 text-start">
+                <i class="bi bi-check-circle-fill text-secondary fs-5 flex-shrink-0 mt-1"></i>
                 <div>
-                  <h4 class="h6 fw-bold mb-1">Senior MD Pathologists</h4>
-                  <p class="small text-muted">All abnormal values dual-verified by specialists.</p>
+                  <h4 class="h6 fw-bold mb-1 text-start">Senior MD Pathologists</h4>
+                  <p class="small text-muted text-start mb-0">All abnormal values dual-verified by specialists.</p>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="d-flex align-items-start gap-2">
-                <i class="bi bi-check-circle-fill text-secondary fs-5"></i>
+            <div class="col-sm-6 text-start">
+              <div class="d-flex align-items-start gap-2 text-start">
+                <i class="bi bi-check-circle-fill text-secondary fs-5 flex-shrink-0 mt-1"></i>
                 <div>
-                  <h4 class="h6 fw-bold mb-1">Fast Turnaround</h4>
-                  <p class="small text-muted">Routine results ready in as little as 6 hours.</p>
+                  <h4 class="h6 fw-bold mb-1 text-start">Fast Turnaround</h4>
+                  <p class="small text-muted text-start mb-0">Routine results ready in as little as 6 hours.</p>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="d-flex align-items-start gap-2">
-                <i class="bi bi-check-circle-fill text-secondary fs-5"></i>
+            <div class="col-sm-6 text-start">
+              <div class="d-flex align-items-start gap-2 text-start">
+                <i class="bi bi-check-circle-fill text-secondary fs-5 flex-shrink-0 mt-1"></i>
                 <div>
-                  <h4 class="h6 fw-bold mb-1">Barcode Traceability</h4>
-                  <p class="small text-muted">Zero sample mix-up with 2D barcode system.</p>
+                  <h4 class="h6 fw-bold mb-1 text-start">Barcode Traceability</h4>
+                  <p class="small text-muted text-start mb-0">Zero sample mix-up with 2D barcode system.</p>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="d-flex align-items-start gap-2">
-                <i class="bi bi-check-circle-fill text-secondary fs-5"></i>
+            <div class="col-sm-6 text-start">
+              <div class="d-flex align-items-start gap-2 text-start">
+                <i class="bi bi-check-circle-fill text-secondary fs-5 flex-shrink-0 mt-1"></i>
                 <div>
-                  <h4 class="h6 fw-bold mb-1">Encrypted Privacy</h4>
-                  <p class="small text-muted">Strict patient confidentiality & HIPAA compliant.</p>
+                  <h4 class="h6 fw-bold mb-1 text-start">Encrypted Privacy</h4>
+                  <p class="small text-muted text-start mb-0">Strict patient confidentiality & HIPAA compliant.</p>
                 </div>
               </div>
             </div>
@@ -1734,9 +1674,9 @@
         </p>
       </div>
 
-      <div class="row g-4">
+      <div class="row g-4 justify-content-center">
         <!-- Testimonial 1 -->
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-6 col-sm-6">
           <div class="testimonial-card">
             <div class="testimonial-stars">
               <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -1755,7 +1695,7 @@
         </div>
 
         <!-- Testimonial 2 -->
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-6 col-sm-6">
           <div class="testimonial-card">
             <div class="testimonial-stars">
               <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -1774,7 +1714,7 @@
         </div>
 
         <!-- Testimonial 3 -->
-        <div class="col-md-4">
+        <div class="col-lg-4 col-md-6 col-sm-6">
           <div class="testimonial-card">
             <div class="testimonial-stars">
               <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -1810,25 +1750,25 @@
 
       <!-- Quick Contact Info Cards -->
       <div class="row g-4 mb-5">
-        <div class="col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="category-card text-center align-items-center">
             <div class="category-icon-box"><i class="bi bi-telephone-fill"></i></div>
             <h4 class="h5 fw-bold mb-1">Phone & WhatsApp</h4>
             <p class="small text-muted mb-2">Toll-Free Patient Desk</p>
-            <a href="tel:+18005550199" class="fw-bold text-secondary">+1 (800) 555-0199</a>
+            <a href="tel:+18005550199" class="fw-bold text-secondary text-break">+1 (800) 555-0199</a>
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="category-card text-center align-items-center">
             <div class="category-icon-box"><i class="bi bi-envelope-fill"></i></div>
             <h4 class="h5 fw-bold mb-1">Email Inquiries</h4>
             <p class="small text-muted mb-2">Reports & Questions</p>
-            <a href="mailto:support@vitalislabs.example" class="fw-bold text-secondary">support@vitalislabs.example</a>
+            <a href="mailto:support@vitalislabs.example" class="fw-bold text-secondary text-break" style="font-size: 0.88rem;">support@vitalislabs.example</a>
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="category-card text-center align-items-center">
             <div class="category-icon-box"><i class="bi bi-geo-alt-fill"></i></div>
             <h4 class="h5 fw-bold mb-1">Central Laboratory</h4>
@@ -1837,7 +1777,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-6">
+        <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="category-card text-center align-items-center">
             <div class="category-icon-box"><i class="bi bi-clock-fill"></i></div>
             <h4 class="h5 fw-bold mb-1">Operating Hours</h4>
@@ -1851,7 +1791,7 @@
       <div class="row g-5 align-items-start mb-5">
         <!-- Contact Form -->
         <div class="col-lg-7">
-          <div class="p-4 p-md-5 rounded-4 border bg-surface shadow-sm">
+          <div class="p-4 p-md-5 rounded-4 border bg-surface shadow-sm text-center text-md-start">
             <span class="badge-vitalis mb-2">Online Message</span>
             <h3 class="h3 fw-bold mb-3">Send Us a Direct Message</h3>
             <p class="text-muted small mb-4">
@@ -1931,7 +1871,7 @@
           </div>
 
           <!-- Direct Phone Help Card -->
-          <div class="p-4 rounded-4 text-white shadow-sm" style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);">
+          <div class="p-4 rounded-4 text-white shadow-sm text-center text-md-start" style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);">
             <span class="badge-vitalis mb-2" style="background: rgba(0, 212, 190, 0.2); color: #00D4BE; border-color: rgba(0, 212, 190, 0.3);">24/7 Guidance</span>
             <h3 class="h5 fw-bold text-white mb-2">Need Urgent Phlebotomy Advice?</h3>
             <p class="text-white-50 small mb-3">

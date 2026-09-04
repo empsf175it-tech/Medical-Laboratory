@@ -610,6 +610,7 @@ function initBookingWizard() {
     // Prev / Next button state
     if (btnPrev) {
       btnPrev.style.visibility = (currentStep === 1) ? 'hidden' : 'visible';
+      btnPrev.style.display = (currentStep === 1) ? 'none' : 'inline-flex';
     }
 
     if (btnNext) {
