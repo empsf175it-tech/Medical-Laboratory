@@ -25,14 +25,15 @@
 <body data-bs-spy="scroll" data-bs-target="#vitalisMainNav" data-bs-offset="100" tabindex="0">
 
   <!-- TOP ANNOUNCEMENT & QUICK INFO BAR -->
-  <div class="vitalis-topbar d-none d-md-block">
+  <div class="vitalis-topbar">
     <div class="container">
-      <div class="d-flex justify-content-between align-items-center">
-        <div class="d-flex align-items-center gap-4">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 gap-md-0 text-center text-md-start">
+        <div class="d-flex flex-wrap justify-content-center justify-content-md-start align-items-center gap-2 gap-md-4">
           <span><i class="bi bi-clock-history text-secondary me-1"></i> Mon - Sat: 06:30 AM – 09:00 PM | Sun: 07:00 AM – 02:00 PM</span>
+          <span class="d-none d-lg-inline text-white-50">|</span>
           <span><i class="bi bi-geo-alt-fill text-secondary me-1"></i> 4 State-of-the-Art Diagnostic Centers</span>
         </div>
-        <div class="d-flex align-items-center gap-3">
+        <div class="d-flex flex-wrap justify-content-center justify-content-md-end align-items-center gap-2 gap-md-3">
           <a href="tel:+18005550199" class="fw-semibold"><i class="bi bi-telephone-fill text-secondary me-1"></i> +1 (800) 555-0199</a>
           <span class="text-white-50">|</span>
           <a href="#reportAccessSection" class="text-light hover-teal"><i class="bi bi-file-earmark-check me-1"></i> Patient Portal</a>
@@ -140,11 +141,15 @@
           <a class="nav-link nav-link-vitalis fs-5 text-center" href="#contact" data-bs-dismiss="offcanvas">Contact</a>
         </li>
       </ul>
-      <div class="pt-4 border-top text-center w-100">
-        <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary w-100 mb-3" data-bs-dismiss="offcanvas">
-          <i class="bi bi-calendar2-plus"></i> Book a Test
+      <div class="pt-3 border-top text-center w-100">
+        <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary w-100 mb-2" data-bs-dismiss="offcanvas">
+          <i class="bi bi-calendar2-plus me-1"></i> Book a Test
         </a>
-        <p class="small text-muted mb-0 text-center"><i class="bi bi-telephone-fill text-secondary me-2"></i>+1 (800) 555-0199</p>
+        <a href="#reportAccessSection" class="btn btn-outline-secondary w-100 mb-3 btn-sm fw-semibold" data-bs-dismiss="offcanvas">
+          <i class="bi bi-file-earmark-check me-1"></i> Patient Portal
+        </a>
+        <p class="small text-muted mb-1 text-center"><i class="bi bi-telephone-fill text-secondary me-2"></i><a href="tel:+18005550199" class="text-decoration-none text-reset fw-semibold">+1 (800) 555-0199</a></p>
+        <p class="x-small text-muted mb-0 text-center" style="font-size: 0.75rem;"><i class="bi bi-geo-alt-fill text-secondary me-1"></i> 4 State-of-the-Art Diagnostic Centers</p>
       </div>
     </div>
   </div>
