@@ -290,16 +290,27 @@ section[id] {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.6rem;
   padding: 0.75rem 1.65rem;
   font-family: var(--font-heading);
   font-size: 0.95rem;
   font-weight: 600;
   border-radius: var(--radius-md);
   border: 1.5px solid transparent;
-  transition: all var(--transition-base);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   cursor: pointer;
   white-space: nowrap;
+  position: relative;
+}
+.btn-vitalis i {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), color 0.3s ease;
+  display: inline-block;
+}
+.btn-vitalis:hover i {
+  transform: scale(1.18);
+}
+.btn-vitalis:active {
+  transform: translateY(0) scale(0.98) !important;
 }
 
 .btn-vitalis-primary {
@@ -312,8 +323,8 @@ section[id] {
   background: var(--primary-hover);
   border-color: var(--primary-hover);
   color: #FFFFFF;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(10, 37, 64, 0.3);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 24px rgba(10, 37, 64, 0.35);
 }
 [data-theme="dark"] .btn-vitalis-primary {
   background: var(--secondary);
@@ -325,6 +336,8 @@ section[id] {
   background: var(--secondary-hover);
   border-color: var(--secondary-hover);
   color: #070D18;
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 10px 28px rgba(0, 212, 190, 0.45);
 }
 
 .btn-vitalis-secondary {
@@ -337,8 +350,8 @@ section[id] {
   background: var(--secondary-hover);
   border-color: var(--secondary-hover);
   color: #FFFFFF;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(0, 168, 150, 0.4);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 10px 28px rgba(0, 168, 150, 0.45);
 }
 
 .btn-vitalis-outline {
@@ -348,9 +361,10 @@ section[id] {
 }
 .btn-vitalis-outline:hover {
   background: var(--bg-subtle);
-  color: var(--primary-light);
+  color: var(--secondary);
   border-color: var(--secondary);
-  transform: translateY(-2px);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 6px 20px rgba(0, 168, 150, 0.15);
 }
 [data-theme="dark"] .btn-vitalis-outline {
   color: var(--text-main);
@@ -360,19 +374,38 @@ section[id] {
   background: var(--bg-subtle);
   border-color: var(--secondary);
   color: var(--secondary);
+  transform: translateY(-3px) scale(1.02);
 }
 
 .btn-vitalis-white {
   background: #FFFFFF;
   color: var(--primary);
   border-color: #FFFFFF;
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  font-weight: 700;
 }
 .btn-vitalis-white:hover {
-  background: #F8FAFC;
-  color: var(--primary-hover);
-  transform: translateY(-2px);
-  box-shadow: var(--shadow-lg);
+  background: #FFFFFF;
+  color: var(--secondary);
+  border-color: #FFFFFF;
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 14px 30px -4px rgba(0, 0, 0, 0.22), 0 0 20px rgba(0, 168, 150, 0.35);
+}
+.btn-vitalis-white:hover i {
+  transform: scale(1.22) rotate(-10deg);
+  color: var(--secondary) !important;
+}
+[data-theme="dark"] .btn-vitalis-white {
+  background: #FFFFFF;
+  color: #070D18;
+  border-color: #FFFFFF;
+}
+[data-theme="dark"] .btn-vitalis-white:hover {
+  background: #FFFFFF;
+  color: var(--secondary);
+  border-color: #FFFFFF;
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 14px 30px -4px rgba(0, 0, 0, 0.4), 0 0 22px rgba(0, 212, 190, 0.45);
 }
 
 .btn-vitalis-sm {
