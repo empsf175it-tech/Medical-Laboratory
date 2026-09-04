@@ -1,0 +1,2182 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitalis Labs — Precision Medical Diagnostic & Pathology Center</title>
+  <meta name="description" content="Vitalis Labs delivers next-generation clinical pathology, molecular diagnostics, and preventive health screenings with unmatched accuracy, rapid digital reports, and convenient home sample collection.">
+  <meta name="keywords" content="medical laboratory, blood test, diagnostic center, pathology lab, health checkup packages, molecular diagnostics, home sample collection, book lab test online">
+  <meta name="author" content="Vitalis Labs">
+  
+  <!-- Open Graph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Vitalis Labs — Precision Diagnostics. Clearer Answers. Better Health.">
+  <meta property="og:description" content="Next-generation medical diagnostics and clinical pathology lab offering 500+ diagnostic tests, comprehensive wellness packages, and certified digital reports.">
+  
+  <!-- Bootstrap 5 CSS & Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Custom Design System Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#vitalisMainNav" data-bs-offset="100" tabindex="0">
+
+  <!-- TOP ANNOUNCEMENT & QUICK INFO BAR -->
+  <div class="vitalis-topbar d-none d-md-block">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center gap-4">
+          <span><i class="bi bi-clock-history text-secondary me-1"></i> Mon - Sat: 06:30 AM – 09:00 PM | Sun: 07:00 AM – 02:00 PM</span>
+          <span><i class="bi bi-geo-alt-fill text-secondary me-1"></i> 4 State-of-the-Art Diagnostic Centers</span>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          <a href="tel:+18005550199" class="fw-semibold"><i class="bi bi-telephone-fill text-secondary me-1"></i> +1 (800) 555-0199</a>
+          <span class="text-white-50">|</span>
+          <a href="#reportAccessSection" class="text-light hover-teal"><i class="bi bi-file-earmark-check me-1"></i> Patient Portal</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STICKY MAIN NAVIGATION HEADER (Exact Same 5 Navigation Links) -->
+  <header class="vitalis-navbar sticky-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg p-0" id="vitalisMainNav">
+        <!-- Brand Logo -->
+        <a class="navbar-brand navbar-brand-vitalis" href="#home">
+          <div class="brand-logo-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L15 8H9L12 2Z" fill="white"/>
+              <circle cx="12" cy="14" r="6" stroke="white" stroke-width="2.5"/>
+              <path d="M9 14H15" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              <path d="M12 11V17" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">VITALIS<span>LABS</span></span>
+            <span class="brand-subtitle">Diagnostic Excellence</span>
+          </div>
+        </a>
+
+        <!-- Right Side Nav Actions & Toggle -->
+        <div class="d-flex align-items-center gap-2 order-lg-3">
+          <!-- Theme Switcher -->
+          <button class="theme-toggle-btn" aria-label="Toggle theme mode" title="Toggle Light / Dark Mode">
+            <i class="bi bi-moon-stars-fill"></i>
+          </button>
+
+          <!-- Book a Test Primary CTA -->
+          <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary d-none d-sm-inline-flex">
+            <i class="bi bi-calendar2-plus"></i> Book a Test
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button class="navbar-toggler border-0 shadow-none p-1 ms-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#vitalisOffcanvasNav" aria-controls="vitalisOffcanvasNav" aria-label="Toggle navigation">
+            <i class="bi bi-list fs-2 text-main"></i>
+          </button>
+        </div>
+
+        <!-- Desktop Navigation Links (Same 5 Nav Items) -->
+        <div class="collapse navbar-collapse justify-content-center order-lg-2">
+          <ul class="navbar-nav gap-1">
+            <li class="nav-item">
+              <a class="nav-link nav-link-vitalis active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-vitalis" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-vitalis" href="#tests-services">Tests & Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-vitalis" href="#health-packages">Health Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-link-vitalis" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MOBILE OFFCANVAS NAVIGATION MENU (Same 5 Nav Items) -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="vitalisOffcanvasNav" aria-labelledby="vitalisOffcanvasNavLabel">
+    <div class="offcanvas-header border-bottom">
+      <div class="navbar-brand-vitalis">
+        <div class="brand-logo-icon">
+          <i class="bi bi-activity text-white"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">VITALIS<span>LABS</span></span>
+        </div>
+      </div>
+      <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body d-flex flex-column justify-content-between p-4">
+      <ul class="navbar-nav gap-2">
+        <li class="nav-item">
+          <a class="nav-link nav-link-vitalis active fs-5" href="#home" data-bs-dismiss="offcanvas">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-vitalis fs-5" href="#about" data-bs-dismiss="offcanvas">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-vitalis fs-5" href="#tests-services" data-bs-dismiss="offcanvas">Tests & Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-vitalis fs-5" href="#health-packages" data-bs-dismiss="offcanvas">Health Packages</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-vitalis fs-5" href="#contact" data-bs-dismiss="offcanvas">Contact</a>
+        </li>
+      </ul>
+      <div class="pt-4 border-top">
+        <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary w-100 mb-3" data-bs-dismiss="offcanvas">
+          <i class="bi bi-calendar2-plus"></i> Book a Test
+        </a>
+        <p class="small text-muted mb-0"><i class="bi bi-telephone-fill text-secondary me-2"></i>+1 (800) 555-0199</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       1. HERO SECTION (#home)
+       ========================================================================= -->
+  <section class="hero-vitalis" id="home">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <!-- Hero Left Column -->
+        <div class="col-lg-6 hero-content">
+          <span class="badge-vitalis">
+            <i class="bi bi-shield-fill-check"></i> Advanced Diagnostics • Trusted Results
+          </span>
+          <h1 class="hero-title">
+            Precision Diagnostics. <br>
+            <span class="text-teal">Clearer Answers.</span> <br>
+            Better Health.
+          </h1>
+          <p class="hero-subtitle">
+            Empowering proactive healthcare through high-precision pathology, robotic analyzers, and certified clinical laboratory specialists. Fast turnaround and confidential digital reports.
+          </p>
+
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary btn-vitalis-lg">
+              <i class="bi bi-calendar-plus-fill"></i> Book a Test
+            </a>
+            <a href="#tests-services" class="btn-vitalis btn-vitalis-outline btn-vitalis-lg">
+              <i class="bi bi-search"></i> Explore Tests
+            </a>
+          </div>
+
+          <!-- Trust Indicators -->
+          <div class="hero-trust-list">
+            <div class="trust-item">
+              <i class="bi bi-patch-check-fill"></i>
+              <span>Quality Focused</span>
+            </div>
+            <div class="trust-item">
+              <i class="bi bi-cpu-fill"></i>
+              <span>Advanced Tech</span>
+            </div>
+            <div class="trust-item">
+              <i class="bi bi-lightning-charge-fill"></i>
+              <span>Fast 6-12h Reports</span>
+            </div>
+            <div class="trust-item">
+              <i class="bi bi-lock-fill"></i>
+              <span>Secure Digital Portal</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Column (Layered Visual Composition) -->
+        <div class="col-lg-6 hero-visual-box">
+          <div class="hero-main-card">
+            <!-- Modern Clinical Graphic Representation -->
+            <div class="hero-media-wrapper">
+              <svg class="lab-illustration" viewBox="0 0 600 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background Grid / Molecule Matrix -->
+                <defs>
+                  <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00A896" stop-opacity="0.8"/>
+                    <stop offset="100%" stop-color="#0A2540" stop-opacity="0.95"/>
+                  </linearGradient>
+                  <linearGradient id="tubeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#38BDF8"/>
+                    <stop offset="100%" stop-color="#00A896"/>
+                  </linearGradient>
+                </defs>
+                
+                <!-- Circuit & DNA wave lines -->
+                <path d="M50 190 Q150 90, 250 190 T450 190 T600 190" stroke="rgba(255,255,255,0.15)" stroke-width="2" fill="none"/>
+                <path d="M50 190 Q150 290, 250 190 T450 190 T600 190" stroke="rgba(0,168,150,0.3)" stroke-width="2" fill="none"/>
+                
+                <!-- Automated Laboratory Centerpiece -->
+                <rect x="160" y="80" width="280" height="220" rx="16" fill="rgba(10,37,64,0.7)" stroke="rgba(0,168,150,0.5)" stroke-width="2"/>
+                <rect x="180" y="105" width="240" height="75" rx="8" fill="rgba(255,255,255,0.08)"/>
+                
+                <!-- Digital Analyzer Screen Visualization -->
+                <path d="M195 145 L225 130 L250 155 L285 120 L320 145 L360 115 L400 135" stroke="#00D4BE" stroke-width="3" fill="none"/>
+                <circle cx="285" cy="120" r="4" fill="#FFFFFF"/>
+                <circle cx="360" cy="115" r="4" fill="#00D4BE"/>
+
+                <!-- Specimen Sample Tubes in Rack -->
+                <rect x="190" y="200" width="16" height="70" rx="8" fill="url(#tubeGrad)"/>
+                <rect x="220" y="210" width="16" height="60" rx="8" fill="#EF4444"/>
+                <rect x="250" y="195" width="16" height="75" rx="8" fill="#F59E0B"/>
+                <rect x="280" y="205" width="16" height="65" rx="8" fill="url(#tubeGrad)"/>
+                <rect x="310" y="200" width="16" height="70" rx="8" fill="#8B5CF6"/>
+                <rect x="340" y="215" width="16" height="55" rx="8" fill="#10B981"/>
+                <rect x="370" y="205" width="16" height="65" rx="8" fill="url(#tubeGrad)"/>
+                
+                <rect x="175" y="255" width="230" height="15" rx="4" fill="rgba(255,255,255,0.2)"/>
+              </svg>
+            </div>
+
+            <!-- Floating Card Top Right: Realtime Diagnostic Status -->
+            <div class="floating-card floating-card-top">
+              <div class="d-flex align-items-center gap-3">
+                <span class="pulse-indicator"></span>
+                <div>
+                  <div class="small text-muted fw-semibold">Automated Analyzer #04</div>
+                  <div class="fw-bold text-main" style="font-size: 0.95rem;">99.8% Accuracy Index</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Card Bottom Left: Sample Track Card -->
+            <div class="floating-card floating-card-bottom">
+              <div class="d-flex align-items-center gap-3">
+                <div class="author-avatar" style="background: var(--primary-subtle); color: var(--primary);">
+                  <i class="bi bi-qr-code-scan"></i>
+                </div>
+                <div>
+                  <div class="small text-muted">Specimen Barcode Tracking</div>
+                  <div class="fw-bold text-secondary" style="font-size: 0.9rem;">Sample Verified & Sealed</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUICK ACTION CARDS -->
+  <section class="quick-actions-bar">
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-sm-6 col-lg-3">
+          <a href="#book-a-test" class="quick-action-card">
+            <div class="quick-action-icon">
+              <i class="bi bi-calendar2-check"></i>
+            </div>
+            <div>
+              <h3 class="quick-action-title">Book a Test</h3>
+              <p class="quick-action-desc">Schedule in 2 mins</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <a href="#tests-services" class="quick-action-card">
+            <div class="quick-action-icon">
+              <i class="bi bi-search-heart"></i>
+            </div>
+            <div>
+              <h3 class="quick-action-title">Find a Test</h3>
+              <p class="quick-action-desc">500+ diagnostic tests</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <a href="#health-packages" class="quick-action-card">
+            <div class="quick-action-icon">
+              <i class="bi bi-heart-pulse"></i>
+            </div>
+            <div>
+              <h3 class="quick-action-title">Health Packages</h3>
+              <p class="quick-action-desc">Curated checkups</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <a href="#reportAccessSection" class="quick-action-card">
+            <div class="quick-action-icon">
+              <i class="bi bi-file-earmark-arrow-down"></i>
+            </div>
+            <div>
+              <h3 class="quick-action-title">Download Report</h3>
+              <p class="quick-action-desc">Instant online access</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST & STATISTICS SECTION -->
+  <section class="section-py stats-section mt-4">
+    <div class="container">
+      <div class="row g-4 text-center">
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-number stat-counter" data-target="15" data-suffix="+">0</div>
+            <div class="stat-label">Years of Diagnostic Excellence</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-number stat-counter" data-target="500" data-suffix="+">0</div>
+            <div class="stat-label">Specialized Pathology Tests</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-number stat-counter" data-target="50" data-suffix="K+">0</div>
+            <div class="stat-label">Patients Served Annually</div>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <div class="stat-number stat-counter" data-target="99.8" data-suffix="%">0</div>
+            <div class="stat-label">Quality Accuracy Standard</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       2. ABOUT US & CLINICAL LEADERSHIP (#about)
+       ========================================================================= -->
+  <section class="section-py" id="about">
+    <div class="container">
+      <!-- Section Header -->
+      <div class="section-header text-center">
+        <span class="badge-vitalis"><i class="bi bi-award-fill"></i> Dedicated to Precision Medicine</span>
+        <h2 class="section-title">Science You Can Trust. <span class="text-teal">Care You Can Feel.</span></h2>
+        <p class="section-desc text-muted">
+          Vitalis Labs was founded on a singular clinical mission: to provide clinicians and patients with ultra-precise diagnostic data that drives timely, life-saving medical decisions.
+        </p>
+      </div>
+
+      <!-- Story & Quality Standards -->
+      <div class="row align-items-center g-5 mb-5">
+        <div class="col-lg-6">
+          <span class="badge-vitalis mb-2">Our Foundation</span>
+          <h3 class="h2 fw-bold mb-3">Bridging Clinical Science and Patient-Centric Care</h3>
+          <p class="text-muted mb-3">
+            Established over 15 years ago by a consortium of clinical pathologists, biochemists, and healthcare technologists, Vitalis Labs has grown into a leading regional diagnostic network processing over 500,000 biological parameters every year.
+          </p>
+          <p class="text-muted mb-4">
+            We believe that every blood vial, tissue biopsy, and genetic sample represents a patient seeking clarity. That's why we invest relentlessly in robotic automated analyzers, closed-loop cold chain logistics, and continuous pathologist oversight to ensure 99.8%+ analytical accuracy.
+          </p>
+
+          <div class="row g-3">
+            <div class="col-6">
+              <div class="p-3 rounded-3 bg-subtle border">
+                <h4 class="h3 fw-bold text-secondary mb-1">500+</h4>
+                <p class="small text-muted mb-0">Routine & Specialized Diagnostic Tests</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="p-3 rounded-3 bg-subtle border">
+                <h4 class="h3 fw-bold text-primary mb-1">6-12h</h4>
+                <p class="small text-muted mb-0">Average Routine Test Turnaround Time</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="p-4 p-md-5 rounded-4 border bg-surface shadow-sm position-relative overflow-hidden">
+            <div class="d-flex align-items-center gap-3 mb-4">
+              <div class="author-avatar" style="width: 54px; height: 54px; font-size: 1.4rem;">
+                <i class="bi bi-shield-lock-fill"></i>
+              </div>
+              <div>
+                <h4 class="h5 fw-bold mb-0">Certified Laboratory Standard</h4>
+                <span class="small text-muted">Strict adherence to clinical QA/QC guidelines</span>
+              </div>
+            </div>
+            <p class="small text-muted mb-4">
+              Our facilities comply with ISO-aligned quality protocols and participate in national external quality assurance programs (EQAS) to validate daily assay performance.
+            </p>
+            <ul class="list-unstyled mb-0">
+              <li class="d-flex align-items-center gap-2 mb-2 small text-main">
+                <i class="bi bi-check-circle-fill text-success"></i> Multi-level internal calibration every 12 hours
+              </li>
+              <li class="d-flex align-items-center gap-2 mb-2 small text-main">
+                <i class="bi bi-check-circle-fill text-success"></i> Automated barcode verification from collection to report
+              </li>
+              <li class="d-flex align-items-center gap-2 small text-main">
+                <i class="bi bi-check-circle-fill text-success"></i> Dual-signoff by board-certified MD pathologists for critical flags
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mission & Vision Cards -->
+      <div class="row g-4 mb-5">
+        <div class="col-lg-6">
+          <div class="p-4 p-md-5 rounded-4 h-100 bg-surface border shadow-sm d-flex flex-column justify-content-between">
+            <div>
+              <div class="quick-action-icon mb-4" style="background: var(--primary-subtle); color: var(--primary);">
+                <i class="bi bi-bullseye fs-3"></i>
+              </div>
+              <span class="badge-vitalis badge-vitalis-primary mb-2">Our Mission</span>
+              <h3 class="h3 fw-bold mb-3">Accessible, Rapid, High-Accuracy Diagnostic Insights</h3>
+              <p class="text-muted mb-0">
+                To deliver clinical laboratory services with uncompromising accuracy, rapid turnaround, and frictionless digital convenience, empowering patients and physicians with the clarity needed to optimize health outcomes.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-top d-flex align-items-center gap-2 text-secondary fw-semibold small">
+              <i class="bi bi-arrow-right-circle-fill"></i> Continuous Diagnostic Innovation
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="p-4 p-md-5 rounded-4 h-100 text-white d-flex flex-column justify-content-between" style="background: linear-gradient(135deg, #0A2540 0%, #163E66 100%); border-radius: var(--radius-xl);">
+            <div>
+              <div class="quick-action-icon mb-4" style="background: rgba(0, 212, 190, 0.2); color: #00D4BE;">
+                <i class="bi bi-eye-fill fs-3"></i>
+              </div>
+              <span class="badge-vitalis mb-2" style="background: rgba(0, 212, 190, 0.2); color: #00D4BE; border-color: rgba(0, 212, 190, 0.3);">Our Vision</span>
+              <h3 class="h3 fw-bold text-white mb-3">To Set the Benchmark in Next-Generation Diagnostics</h3>
+              <p class="text-white-50 mb-0">
+                To be the most trusted and technologically advanced diagnostic center network, pioneering preventative molecular screening, AI-assisted pathology, and effortless doorstep sample accessibility.
+              </p>
+            </div>
+            <div class="mt-4 pt-3 border-top border-white-50 d-flex align-items-center gap-2 text-secondary fw-semibold small">
+              <i class="bi bi-arrow-right-circle-fill text-secondary"></i> Global Quality Benchmarking
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Core Values -->
+      <div class="mb-5">
+        <div class="text-center mb-4">
+          <span class="badge-vitalis">Guiding Principles</span>
+          <h3 class="h2 fw-bold">The Values That Drive Every Test</h3>
+        </div>
+
+        <div class="row g-3">
+          <div class="col-md-4 col-sm-6">
+            <div class="category-card">
+              <div class="category-icon-box"><i class="bi bi-crosshair"></i></div>
+              <h4 class="category-title">1. Uncompromising Accuracy</h4>
+              <p class="category-desc">Precision is our benchmark. We maintain multi-stage validation checks to guarantee trustworthy assay numbers.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="category-card">
+              <div class="category-icon-box"><i class="bi bi-shield-check"></i></div>
+              <h4 class="category-title">2. Absolute Integrity</h4>
+              <p class="category-desc">Transparent reporting, ethical testing protocols, and complete patient confidentiality at all times.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6">
+            <div class="category-card">
+              <div class="category-icon-box"><i class="bi bi-heart-pulse"></i></div>
+              <h4 class="category-title">3. Patient First Mindset</h4>
+              <p class="category-desc">Gentle sample collection, prompt communication, and affordable preventive checkup options.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="category-card">
+              <div class="category-icon-box"><i class="bi bi-cpu"></i></div>
+              <h4 class="category-title">4. Technology & Innovation</h4>
+              <p class="category-desc">Embracing automated chemistry analyzers, digital pathology, and modern molecular diagnostics.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="category-card">
+              <div class="category-icon-box"><i class="bi bi-patch-check-fill"></i></div>
+              <h4 class="category-title">5. Continuous Quality Culture</h4>
+              <p class="category-desc">Rigorous internal and external proficiency testing calibrated against international pathology benchmarks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scientific Leadership Team -->
+      <div class="pt-3">
+        <div class="text-center mb-4">
+          <span class="badge-vitalis">Clinical Experts</span>
+          <h3 class="h2 fw-bold">Our Pathology & Scientific Leadership</h3>
+          <p class="text-muted small">Led by experienced MD Pathologists, Medical Biochemists, and Certified Laboratory Technologists.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="category-card text-center align-items-center">
+              <div class="author-avatar mb-3" style="width: 80px; height: 80px; font-size: 1.75rem; background: var(--secondary-light); color: var(--secondary);">
+                <i class="bi bi-person-fill"></i>
+              </div>
+              <h4 class="h5 fw-bold mb-1">Dr. Arthur Vance, MD, FACP</h4>
+              <span class="badge-tag mb-3">Chief Medical Officer & Pathologist</span>
+              <p class="small text-muted mb-0">Over 22 years of clinical pathology leadership specializing in hematopathology and laboratory quality control automation.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="category-card text-center align-items-center">
+              <div class="author-avatar mb-3" style="width: 80px; height: 80px; font-size: 1.75rem; background: var(--primary-subtle); color: var(--primary);">
+                <i class="bi bi-person-fill"></i>
+              </div>
+              <h4 class="h5 fw-bold mb-1">Dr. Elena Rossi, PhD</h4>
+              <span class="badge-tag mb-3">Head of Molecular Diagnostics</span>
+              <p class="small text-muted mb-0">Specialist in quantitative RT-PCR genomics, infectious viral load assays, and biomarker discovery pipelines.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="category-card text-center align-items-center">
+              <div class="author-avatar mb-3" style="width: 80px; height: 80px; font-size: 1.75rem; background: var(--secondary-light); color: var(--secondary);">
+                <i class="bi bi-person-fill"></i>
+              </div>
+              <h4 class="h5 fw-bold mb-1">Marcus Thorne, MSc</h4>
+              <span class="badge-tag mb-3">Lead Clinical Biochemist</span>
+              <p class="small text-muted mb-0">Overseeing high-throughput automated analyzers, endocrine profiling, and multi-tier internal calibration protocols.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       3. TESTS & SERVICES DIRECTORY (#tests-services)
+       ========================================================================= -->
+  <section class="section-py bg-alt" id="tests-services">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge-vitalis"><i class="bi bi-search"></i> 500+ Diagnostic Assays</span>
+        <h2 class="section-title">Explore Our Diagnostic Services</h2>
+        <p class="section-desc text-muted mb-4">
+          Browse our comprehensive catalog of pathology, biochemistry, endocrine, and molecular testing. Search by test name or filter by clinical category.
+        </p>
+
+        <!-- Live Search Input -->
+        <div class="row justify-content-center">
+          <div class="col-lg-7 col-md-9">
+            <div class="input-group input-group-lg shadow-sm rounded-4 overflow-hidden border">
+              <span class="input-group-text bg-surface border-0 ps-3 text-secondary"><i class="bi bi-search fs-5"></i></span>
+              <input type="text" id="testSearchInput" class="form-control bg-surface border-0 shadow-none ps-2" placeholder="Search by test name (e.g., CBC, Thyroid, Glucose, Vitamin D)..." aria-label="Search tests">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="test-filter-pills-wrap">
+        <button class="test-filter-pill active" data-filter="all">All Tests (12)</button>
+        <button class="test-filter-pill" data-filter="hematology">Hematology</button>
+        <button class="test-filter-pill" data-filter="biochemistry">Biochemistry</button>
+        <button class="test-filter-pill" data-filter="hormone">Hormone & Endocrine</button>
+        <button class="test-filter-pill" data-filter="vitamins">Vitamins & Nutrition</button>
+        <button class="test-filter-pill" data-filter="cardiac">Cardiac Biomarkers</button>
+        <button class="test-filter-pill" data-filter="immunology">Immunology</button>
+        <button class="test-filter-pill" data-filter="molecular">Molecular & PCR</button>
+      </div>
+
+      <!-- No Tests Found State -->
+      <div id="noTestsFound" class="alert alert-info text-center py-5 rounded-4" style="display: none;">
+        <i class="bi bi-search fs-1 d-block mb-2 text-secondary"></i>
+        <h4 class="fw-bold">No diagnostic tests match your search</h4>
+        <p class="text-muted mb-0">Try checking spelling or exploring all categories above.</p>
+      </div>
+
+      <!-- Test Catalog Grid -->
+      <div class="row g-4" id="testsGridContainer">
+
+        <!-- Test 1: CBC -->
+        <div class="col-lg-4 col-md-6 test-item-wrapper" data-category="hematology">
+          <div class="test-catalog-card">
+            <div class="test-card-header">
+              <div>
+                <span class="badge-tag mb-2">Hematology</span>
+                <h3 class="test-name">Complete Blood Count (CBC)</h3>
+              </div>
+              <span class="test-price">$28</span>
+            </div>
+            <p class="small text-muted test-desc">Comprehensive 24-parameter evaluation including Hemoglobin, RBC, WBC differential, Platelets, and MCV.</p>
+            <div class="test-meta-grid">
+              <div class="test-meta-item"><i class="bi bi-droplet-half"></i> EDTA Whole Blood</div>
+              <div class="test-meta-item"><i class="bi bi-clock-history"></i> 6 Hours TAT</div>
+              <div class="test-meta-item"><i class="bi bi-cup-straw"></i> No Fasting Needed</div>
+              <div class="test-meta-item"><i class="bi bi-shield-check"></i> Automated Laser</div>
+            </div>
+            <div class="test-card-actions">
+              <button type="button" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm flex-grow-1 open-test-modal-btn" data-test="cbc">View Details</button>
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary btn-vitalis-sm flex-grow-1 book-test-btn" data-test-name="Complete Blood Count (CBC)" data-test-price="28">Book Test</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Test 2: Lipid Profile Complete -->
+        <div class="col-lg-4 col-md-6 test-item-wrapper" data-category="cardiac">
+          <div class="test-catalog-card">
+            <div class="test-card-header">
+              <div>
+                <span class="badge-tag mb-2">Cardiac Biomarkers</span>
+                <h3 class="test-name">Lipid Profile Extended</h3>
+              </div>
+              <span class="test-price">$38</span>
+            </div>
+            <p class="small text-muted test-desc">Measures Total Cholesterol, Triglycerides, HDL, LDL, VLDL, and Cholesterol/HDL risk ratios.</p>
+            <div class="test-meta-grid">
+              <div class="test-meta-item"><i class="bi bi-droplet-half"></i> Serum Blood</div>
+              <div class="test-meta-item"><i class="bi bi-clock-history"></i> 8 Hours TAT</div>
+              <div class="test-meta-item"><i class="bi bi-cup-straw"></i> 10-12h Fasting</div>
+              <div class="test-meta-item"><i class="bi bi-shield-check"></i> Spectrophotometry</div>
+            </div>
+            <div class="test-card-actions">
+              <button type="button" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm flex-grow-1 open-test-modal-btn" data-test="lipid">View Details</button>
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary btn-vitalis-sm flex-grow-1 book-test-btn" data-test-name="Lipid Profile Extended" data-test-price="38">Book Test</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Test 3: Thyroid Profile -->
+        <div class="col-lg-4 col-md-6 test-item-wrapper" data-category="hormone">
+          <div class="test-catalog-card">
+            <div class="test-card-header">
+              <div>
+                <span class="badge-tag mb-2">Hormone & Endocrine</span>
+                <h3 class="test-name">Complete Thyroid Profile</h3>
+              </div>
+              <span class="test-price">$45</span>
+            </div>
+            <p class="small text-muted test-desc">Measures Total Triiodothyronine (T3), Total Thyroxine (T4), and Ultrasensitive TSH via chemiluminescence.</p>
+            <div class="test-meta-grid">
+              <div class="test-meta-item"><i class="bi bi-droplet-half"></i> Serum Blood</div>
+              <div class="test-meta-item"><i class="bi bi-clock-history"></i> 12 Hours TAT</div>
+              <div class="test-meta-item"><i class="bi bi-cup-straw"></i> Morning Sample</div>
+              <div class="test-meta-item"><i class="bi bi-shield-check"></i> CLIA Assay</div>
+            </div>
+            <div class="test-card-actions">
+              <button type="button" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm flex-grow-1 open-test-modal-btn" data-test="thyroid">View Details</button>
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary btn-vitalis-sm flex-grow-1 book-test-btn" data-test-name="Complete Thyroid Profile (T3, T4, TSH)" data-test-price="45">Book Test</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Test 4: Glycated Hemoglobin (HbA1c) -->
+        <div class="col-lg-4 col-md-6 test-item-wrapper" data-category="biochemistry">
+          <div class="test-catalog-card">
+            <div class="test-card-header">
+              <div>
+                <span class="badge-tag mb-2">Biochemistry</span>
+                <h3 class="test-name">HbA1c (Glycated Hemoglobin)</h3>
+              </div>
+              <span class="test-price">$32</span>
+            </div>
+            <p class="small text-muted test-desc">Gold standard 3-month average blood glucose monitoring with Estimated Average Glucose (eAG) calculation.</p>
+            <div class="test-meta-grid">
+              <div class="test-meta-item"><i class="bi bi-droplet-half"></i> EDTA Blood</div>
+              <div class="test-meta-item"><i class="bi bi-clock-history"></i> 6 Hours TAT</div>
+              <div class="test-meta-item"><i class="bi bi-cup-straw"></i> No Fasting Needed</div>
+              <div class="test-meta-item"><i class="bi bi-shield-check"></i> HPLC Method</div>
+            </div>
+            <div class="test-card-actions">
+              <button type="button" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm flex-grow-1 open-test-modal-btn" data-test="hba1c">View Details</button>
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary btn-vitalis-sm flex-grow-1 book-test-btn" data-test-name="HbA1c Glycated Glucose" data-test-price="32">Book Test</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Test 5: Vitamin D (25-Hydroxy) -->
+        <div class="col-lg-4 col-md-6 test-item-wrapper" data-category="vitamins">
+          <div class="test-catalog-card">
+            <div class="test-card-header">
+              <div>
+                <span class="badge-tag mb-2">Vitamins & Nutrition</span>
+                <h3 class="test-name">Vitamin D (25-Hydroxy)</h3>
+              </div>
+              <span class="test-price">$48</span>
+            </div>
+            <p class="small text-muted test-desc">Evaluates circulating 25-OH Vitamin D3/D2 levels for bone density, immune strength, and fatigue diagnosis.</p>
+            <div class="test-meta-grid">
+              <div class="test-meta-item"><i class="bi bi-droplet-half"></i> Serum Blood</div>
+              <div class="test-meta-item"><i class="bi bi-clock-history"></i> 12 Hours TAT</div>
+              <div class="test-meta-item"><i class="bi bi-cup-straw"></i> No Fasting Needed</div>
+              <div class="test-meta-item"><i class="bi bi-shield-check"></i> CMIA Technology</div>
+            </div>
+            <div class="test-card-actions">
+              <button type="button" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm flex-grow-1 open-test-modal-btn" data-test="vitamind">View Details</button>
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary btn-vitalis-sm flex-grow-1 book-test-btn" data-test-name="Vitamin D3 (25-Hydroxy)" data-test-price="48">Book Test</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Test 6: Vitamin B12 -->
+        <div class="col-lg-4 col-md-6 test-item-wrapper" data-category="vitamins">
+          <div class="test-catalog-card">
+            <div class="test-card-header">
+              <div>
+                <span class="badge-tag mb-2">Vitamins & Nutrition</span>
+                <h3 class="test-name">Vitamin B12 Assay</h3>
+              </div>
+              <span class="test-price">$42</span>
+            </div>
+            <p class="small text-muted test-desc">Essential neurological and red blood cell production biomarker for diagnosing anemia and nerve tingling.</p>
+            <div class="test-meta-grid">
+              <div class="test-meta-item"><i class="bi bi-droplet-half"></i> Serum Blood</div>
+              <div class="test-meta-item"><i class="bi bi-clock-history"></i> 12 Hours TAT</div>
+              <div class="test-meta-item"><i class="bi bi-cup-straw"></i> Fasting Preferred</div>
+              <div class="test-meta-item"><i class="bi bi-shield-check"></i> ECLIA Assay</div>
+            </div>
+            <div class="test-card-actions">
+              <button type="button" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm flex-grow-1 open-test-modal-btn" data-test="vitb12">View Details</button>
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary btn-vitalis-sm flex-grow-1 book-test-btn" data-test-name="Vitamin B12 Assay" data-test-price="42">Book Test</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Test 7: Liver Function Test (LFT) -->
+        <div class="col-lg-4 col-md-6 test-item-wrapper" data-category="biochemistry">
+          <div class="test-catalog-card">
+            <div class="test-card-header">
+              <div>
+                <span class="badge-tag mb-2">Biochemistry</span>
+                <h3 class="test-name">Comprehensive Liver Panel (LFT)</h3>
+              </div>
+              <span class="test-price">$36</span>
+            </div>
+            <p class="small text-muted test-desc">Measures Bilirubin (Total & Direct), SGOT/AST, SGPT/ALT, Alkaline Phosphatase, Protein, and Albumin.</p>
+            <div class="test-meta-grid">
+              <div class="test-meta-item"><i class="bi bi-droplet-half"></i> Serum Blood</div>
+              <div class="test-meta-item"><i class="bi bi-clock-history"></i> 8 Hours TAT</div>
+              <div class="test-meta-item"><i class="bi bi-cup-straw"></i> 8h Fasting Required</div>
+              <div class="test-meta-item"><i class="bi bi-shield-check"></i> Clinical Chemistry</div>
+            </div>
+            <div class="test-card-actions">
+              <button type="button" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm flex-grow-1 open-test-modal-btn" data-test="lft">View Details</button>
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary btn-vitalis-sm flex-grow-1 book-test-btn" data-test-name="Comprehensive Liver Panel (LFT)" data-test-price="36">Book Test</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Test 8: Kidney Function Test (KFT) -->
+        <div class="col-lg-4 col-md-6 test-item-wrapper" data-category="biochemistry">
+          <div class="test-catalog-card">
+            <div class="test-card-header">
+              <div>
+                <span class="badge-tag mb-2">Biochemistry</span>
+                <h3 class="test-name">Renal Kidney Panel (KFT)</h3>
+              </div>
+              <span class="test-price">$34</span>
+            </div>
+            <p class="small text-muted test-desc">Evaluates Serum Creatinine, Blood Urea Nitrogen (BUN), Uric Acid, Calcium, and estimated GFR filtration rate.</p>
+            <div class="test-meta-grid">
+              <div class="test-meta-item"><i class="bi bi-droplet-half"></i> Serum Blood</div>
+              <div class="test-meta-item"><i class="bi bi-clock-history"></i> 8 Hours TAT</div>
+              <div class="test-meta-item"><i class="bi bi-cup-straw"></i> Hydrate with Water</div>
+              <div class="test-meta-item"><i class="bi bi-shield-check"></i> Enzymatic Assay</div>
+            </div>
+            <div class="test-card-actions">
+              <button type="button" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm flex-grow-1 open-test-modal-btn" data-test="kft">View Details</button>
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary btn-vitalis-sm flex-grow-1 book-test-btn" data-test-name="Renal Kidney Panel (KFT)" data-test-price="34">Book Test</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Test 9: hs-CRP -->
+        <div class="col-lg-4 col-md-6 test-item-wrapper" data-category="cardiac">
+          <div class="test-catalog-card">
+            <div class="test-card-header">
+              <div>
+                <span class="badge-tag mb-2">Cardiac Biomarkers</span>
+                <h3 class="test-name">hs-CRP (Cardiac Risk)</h3>
+              </div>
+              <span class="test-price">$30</span>
+            </div>
+            <p class="small text-muted test-desc">High-sensitivity C-reactive protein quantifier detecting micro-vascular inflammation and coronary artery disease risk.</p>
+            <div class="test-meta-grid">
+              <div class="test-meta-item"><i class="bi bi-droplet-half"></i> Serum Blood</div>
+              <div class="test-meta-item"><i class="bi bi-clock-history"></i> 8 Hours TAT</div>
+              <div class="test-meta-item"><i class="bi bi-cup-straw"></i> No Prep Required</div>
+              <div class="test-meta-item"><i class="bi bi-shield-check"></i> Immunoturbidimetry</div>
+            </div>
+            <div class="test-card-actions">
+              <button type="button" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm flex-grow-1 open-test-modal-btn" data-test="hscrp">View Details</button>
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary btn-vitalis-sm flex-grow-1 book-test-btn" data-test-name="hs-CRP (Cardiac Risk)" data-test-price="30">Book Test</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Test 10: Multiplex Respiratory PCR -->
+        <div class="col-lg-4 col-md-6 test-item-wrapper" data-category="molecular">
+          <div class="test-catalog-card">
+            <div class="test-card-header">
+              <div>
+                <span class="badge-tag mb-2">Molecular & PCR</span>
+                <h3 class="test-name">Multiplex Respiratory PCR</h3>
+              </div>
+              <span class="test-price">$95</span>
+            </div>
+            <p class="small text-muted test-desc">Simultaneous detection of Influenza A/B, RSV, and SARS-CoV-2 viral RNA with cycle threshold quantification.</p>
+            <div class="test-meta-grid">
+              <div class="test-meta-item"><i class="bi bi-virus"></i> Nasopharyngeal Swab</div>
+              <div class="test-meta-item"><i class="bi bi-clock-history"></i> 12-18 Hours TAT</div>
+              <div class="test-meta-item"><i class="bi bi-cup-straw"></i> No Prep Required</div>
+              <div class="test-meta-item"><i class="bi bi-shield-check"></i> Real-Time PCR</div>
+            </div>
+            <div class="test-card-actions">
+              <button type="button" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm flex-grow-1 open-test-modal-btn" data-test="pcr">View Details</button>
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary btn-vitalis-sm flex-grow-1 book-test-btn" data-test-name="Multiplex Respiratory PCR" data-test-price="95">Book Test</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Test 11: Total IgE Allergy Screen -->
+        <div class="col-lg-4 col-md-6 test-item-wrapper" data-category="immunology">
+          <div class="test-catalog-card">
+            <div class="test-card-header">
+              <div>
+                <span class="badge-tag mb-2">Immunology</span>
+                <h3 class="test-name">Total Serum IgE (Allergy)</h3>
+              </div>
+              <span class="test-price">$35</span>
+            </div>
+            <p class="small text-muted test-desc">Measures total immunoglobulin E concentration for atopic allergy screening and hypersensitivity diagnostics.</p>
+            <div class="test-meta-grid">
+              <div class="test-meta-item"><i class="bi bi-droplet-half"></i> Serum Blood</div>
+              <div class="test-meta-item"><i class="bi bi-clock-history"></i> 12 Hours TAT</div>
+              <div class="test-meta-item"><i class="bi bi-cup-straw"></i> Avoid Antihistamines</div>
+              <div class="test-meta-item"><i class="bi bi-shield-check"></i> FEIA Immunoassay</div>
+            </div>
+            <div class="test-card-actions">
+              <button type="button" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm flex-grow-1 open-test-modal-btn" data-test="ige">View Details</button>
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary btn-vitalis-sm flex-grow-1 book-test-btn" data-test-name="Total Serum IgE (Allergy)" data-test-price="35">Book Test</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Test 12: Serum Ferritin & Iron Panel -->
+        <div class="col-lg-4 col-md-6 test-item-wrapper" data-category="hematology">
+          <div class="test-catalog-card">
+            <div class="test-card-header">
+              <div>
+                <span class="badge-tag mb-2">Hematology</span>
+                <h3 class="test-name">Serum Ferritin & Iron Profile</h3>
+              </div>
+              <span class="test-price">$40</span>
+            </div>
+            <p class="small text-muted test-desc">Evaluates body iron stores, Total Iron Binding Capacity (TIBC), and Transferrin saturation for latent anemia detection.</p>
+            <div class="test-meta-grid">
+              <div class="test-meta-item"><i class="bi bi-droplet-half"></i> Serum Blood</div>
+              <div class="test-meta-item"><i class="bi bi-clock-history"></i> 8 Hours TAT</div>
+              <div class="test-meta-item"><i class="bi bi-cup-straw"></i> Morning Sample</div>
+              <div class="test-meta-item"><i class="bi bi-shield-check"></i> Chemiluminescence</div>
+            </div>
+            <div class="test-card-actions">
+              <button type="button" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm flex-grow-1 open-test-modal-btn" data-test="ferritin">View Details</button>
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary btn-vitalis-sm flex-grow-1 book-test-btn" data-test-name="Serum Ferritin & Iron Profile" data-test-price="40">Book Test</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       4. HEALTH PACKAGES & COMPARISON MATRIX (#health-packages)
+       ========================================================================= -->
+  <section class="section-py" id="health-packages">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge-vitalis">Curated Checkups</span>
+        <h2 class="section-title">Comprehensive Health Packages</h2>
+        <p class="section-desc text-muted">
+          Scientifically assembled checkup packages designed for comprehensive wellness evaluation, early risk detection, and preventive health management.
+        </p>
+      </div>
+
+      <!-- 6 Health Packages Grid -->
+      <div class="row g-4 align-items-stretch mb-5">
+        <!-- Package 1: Essential Health Check -->
+        <div class="col-lg-4 col-md-6">
+          <div class="package-card h-100 d-flex flex-column">
+            <span class="badge-tag mb-2 align-self-start">Routine Baseline</span>
+            <h3 class="h4 fw-bold mb-1">Essential Health Check</h3>
+            <p class="small text-muted mb-2">Ideal for young adults & routine annual work physicals.</p>
+            <span class="package-param-badge">42 Clinical Parameters</span>
+            <div class="package-price-wrap">
+              <span class="package-price">$69</span>
+              <span class="package-price-original">$110</span>
+              <span class="small text-muted">/ person</span>
+            </div>
+            <ul class="package-checklist mb-4">
+              <li><i class="bi bi-check-circle-fill"></i> Complete Blood Count (CBC, 24 Params)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Fasting Blood Glucose (Sugar)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Basic Lipid Panel (Cholesterol, HDL, LDL)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Liver Function Screen (ALT & AST)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Kidney Function Screen (Serum Creatinine & BUN)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Urine Routine & Microscopy (10 Params)</li>
+            </ul>
+            <div class="d-grid gap-2 mt-auto">
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary book-package-btn" data-package-name="Essential Health Check" data-package-price="69">Book This Package</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 2: Complete Wellness Panel (Featured) -->
+        <div class="col-lg-4 col-md-6">
+          <div class="package-card featured h-100 d-flex flex-column">
+            <span class="package-badge-popular">Most Popular</span>
+            <span class="badge-tag mb-2 align-self-start">Full Body Profile</span>
+            <h3 class="h4 fw-bold mb-1">Complete Wellness Panel</h3>
+            <p class="small text-muted mb-2">Comprehensive screening including vitamins, thyroid, and HbA1c.</p>
+            <span class="package-param-badge">78 Clinical Parameters</span>
+            <div class="package-price-wrap">
+              <span class="package-price">$129</span>
+              <span class="package-price-original">$220</span>
+              <span class="small text-muted">/ person</span>
+            </div>
+            <ul class="package-checklist mb-4">
+              <li><i class="bi bi-check-circle-fill"></i> Everything in Essential Checkup</li>
+              <li><i class="bi bi-check-circle-fill"></i> Glycated Hemoglobin (HbA1c 3-Mo Avg)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Vitamin D3 (25-Hydroxy) & Vitamin B12</li>
+              <li><i class="bi bi-check-circle-fill"></i> Complete Thyroid Panel (TSH, Total T3, T4)</li>
+              <li><i class="bi bi-check-circle-fill"></i> High Sensitivity C-Reactive Protein (hs-CRP)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Serum Uric Acid & Electrolyte Panel</li>
+              <li><i class="bi bi-check-circle-fill"></i> <strong>Free Home Sample Collection</strong></li>
+            </ul>
+            <div class="d-grid gap-2 mt-auto">
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-secondary book-package-btn" data-package-name="Complete Wellness Panel" data-package-price="129">Book This Package</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 3: Executive Men's Health -->
+        <div class="col-lg-4 col-md-6">
+          <div class="package-card h-100 d-flex flex-column">
+            <span class="badge-tag mb-2 align-self-start">Men's Care 35+</span>
+            <h3 class="h4 fw-bold mb-1">Executive Men's Health</h3>
+            <p class="small text-muted mb-2">Tailored for cardiovascular, prostate, and testosterone vitality.</p>
+            <span class="package-param-badge">84 Clinical Parameters</span>
+            <div class="package-price-wrap">
+              <span class="package-price">$169</span>
+              <span class="package-price-original">$280</span>
+              <span class="small text-muted">/ person</span>
+            </div>
+            <ul class="package-checklist mb-4">
+              <li><i class="bi bi-check-circle-fill"></i> Full Wellness Panel (CBC, LFT, KFT, Lipids)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Total PSA (Prostate Specific Antigen)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Total Testosterone & Free Androgen Index</li>
+              <li><i class="bi bi-check-circle-fill"></i> Advanced Cardiac Risk (ApoB, Homocysteine)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Serum Ferritin & Iron Saturation</li>
+              <li><i class="bi bi-check-circle-fill"></i> <strong>Free Home Sample Collection</strong></li>
+            </ul>
+            <div class="d-grid gap-2 mt-auto">
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary book-package-btn" data-package-name="Executive Men's Health" data-package-price="169">Book This Package</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 4: Women's Comprehensive Care -->
+        <div class="col-lg-4 col-md-6">
+          <div class="package-card h-100 d-flex flex-column">
+            <span class="badge-tag mb-2 align-self-start">Women's Care 25+</span>
+            <h3 class="h4 fw-bold mb-1">Women's Comprehensive</h3>
+            <p class="small text-muted mb-2">Hormonal balance, bone density biomarkers, and anemia screening.</p>
+            <span class="package-param-badge">86 Clinical Parameters</span>
+            <div class="package-price-wrap">
+              <span class="package-price">$169</span>
+              <span class="package-price-original">$280</span>
+              <span class="small text-muted">/ person</span>
+            </div>
+            <ul class="package-checklist mb-4">
+              <li><i class="bi bi-check-circle-fill"></i> Full Wellness Panel (CBC, LFT, KFT, Lipids)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Complete Thyroid Panel with Free T4 & Anti-TPO</li>
+              <li><i class="bi bi-check-circle-fill"></i> Serum Iron, TIBC & Ferritin Profile</li>
+              <li><i class="bi bi-check-circle-fill"></i> Calcium, Phosphorus & Vitamin D3 Profile</li>
+              <li><i class="bi bi-check-circle-fill"></i> Hormone Panel (Prolactin, LH, FSH)</li>
+              <li><i class="bi bi-check-circle-fill"></i> <strong>Free Home Sample Collection</strong></li>
+            </ul>
+            <div class="d-grid gap-2 mt-auto">
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary book-package-btn" data-package-name="Women's Comprehensive Care" data-package-price="169">Book This Package</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 5: Senior Citizen Vitality -->
+        <div class="col-lg-4 col-md-6">
+          <div class="package-card h-100 d-flex flex-column">
+            <span class="badge-tag mb-2 align-self-start">Geriatric Care 60+</span>
+            <h3 class="h4 fw-bold mb-1">Senior Citizen Vitality</h3>
+            <p class="small text-muted mb-2">Intensive screening for joint health, renal efficiency, and heart status.</p>
+            <span class="package-param-badge">94 Clinical Parameters</span>
+            <div class="package-price-wrap">
+              <span class="package-price">$189</span>
+              <span class="package-price-original">$320</span>
+              <span class="small text-muted">/ person</span>
+            </div>
+            <ul class="package-checklist mb-4">
+              <li><i class="bi bi-check-circle-fill"></i> Complete Metabolic & Organ Function Profiling</li>
+              <li><i class="bi bi-check-circle-fill"></i> Rheumatoid Factor (RF) & Anti-CCP Joint Screen</li>
+              <li><i class="bi bi-check-circle-fill"></i> Microalbuminuria & GFR Renal Degradation</li>
+              <li><i class="bi bi-check-circle-fill"></i> High Sensitivity Troponin & hs-CRP</li>
+              <li><i class="bi bi-check-circle-fill"></i> Vitamin D3, B12, and Magnesium Levels</li>
+              <li><i class="bi bi-check-circle-fill"></i> <strong>Free Priority Home Collection</strong></li>
+            </ul>
+            <div class="d-grid gap-2 mt-auto">
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary book-package-btn" data-package-name="Senior Citizen Vitality" data-package-price="189">Book This Package</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 6: Diabetes Management Panel -->
+        <div class="col-lg-4 col-md-6">
+          <div class="package-card h-100 d-flex flex-column">
+            <span class="badge-tag mb-2 align-self-start">Chronic Care</span>
+            <h3 class="h4 fw-bold mb-1">Diabetes Management Panel</h3>
+            <p class="small text-muted mb-2">Quarterly glycemic control and diabetic organ risk monitoring.</p>
+            <span class="package-param-badge">52 Clinical Parameters</span>
+            <div class="package-price-wrap">
+              <span class="package-price">$89</span>
+              <span class="package-price-original">$145</span>
+              <span class="small text-muted">/ person</span>
+            </div>
+            <ul class="package-checklist mb-4">
+              <li><i class="bi bi-check-circle-fill"></i> Fasting & Post-Prandial Glucose (PPBS)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Glycated Hemoglobin (HbA1c & eAG)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Extended Diabetic Lipid Panel</li>
+              <li><i class="bi bi-check-circle-fill"></i> Urine Albumin-to-Creatinine Ratio (UACR)</li>
+              <li><i class="bi bi-check-circle-fill"></i> Serum Creatinine & eGFR Calculation</li>
+            </ul>
+            <div class="d-grid gap-2 mt-auto">
+              <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary book-package-btn" data-package-name="Diabetes Management Panel" data-package-price="89">Book This Package</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DETAILED INCLUSIONS COMPARISON MATRIX -->
+      <div class="p-4 p-md-5 rounded-4 border bg-surface shadow-sm">
+        <div class="text-center mb-4">
+          <span class="badge-vitalis">Side-by-Side Comparison</span>
+          <h3 class="h3 fw-bold mb-1">Health Package Inclusions Matrix</h3>
+          <p class="text-muted small">Compare diagnostic panels across our most popular health screening tiers.</p>
+        </div>
+
+        <div class="table-responsive">
+          <table class="table table-vitalis text-center align-middle mb-0">
+            <thead>
+              <tr>
+                <th class="text-start" style="min-width: 220px;">Diagnostic Panel</th>
+                <th>Essential ($69)</th>
+                <th>Complete ($129)</th>
+                <th>Executive Men ($169)</th>
+                <th>Women's Care ($169)</th>
+                <th>Senior Vitality ($189)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-start fw-bold">Complete Blood Count (CBC)</td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+              </tr>
+              <tr>
+                <td class="text-start fw-bold">Lipid Profile Extended</td>
+                <td><span class="small text-muted">Basic Only</span></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+              </tr>
+              <tr>
+                <td class="text-start fw-bold">Liver & Kidney Function (LFT/KFT)</td>
+                <td><span class="small text-muted">Screen Only</span></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+              </tr>
+              <tr>
+                <td class="text-start fw-bold">HbA1c Glycated Hemoglobin</td>
+                <td><i class="bi bi-dash text-muted fs-4"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+              </tr>
+              <tr>
+                <td class="text-start fw-bold">Vitamin D3 & Vitamin B12</td>
+                <td><i class="bi bi-dash text-muted fs-4"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+              </tr>
+              <tr>
+                <td class="text-start fw-bold">Thyroid Panel (T3, T4, TSH)</td>
+                <td><i class="bi bi-dash text-muted fs-4"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+              </tr>
+              <tr>
+                <td class="text-start fw-bold">Prostate PSA / Hormone Panel</td>
+                <td><i class="bi bi-dash text-muted fs-4"></i></td>
+                <td><i class="bi bi-dash text-muted fs-4"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+              </tr>
+              <tr>
+                <td class="text-start fw-bold">Complimentary Home Sample Collection</td>
+                <td><span class="small text-muted">+$15 Fee</span></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+                <td><i class="bi bi-check-circle-fill text-success fs-5"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS & HOME COLLECTION SHOWCASE -->
+  <section class="section-py bg-alt">
+    <div class="container">
+      <!-- 4-Step Timeline -->
+      <div class="section-header text-center">
+        <span class="badge-vitalis">Simple & Seamless</span>
+        <h2 class="section-title">How Diagnostic Testing Works</h2>
+        <p class="section-desc text-muted">
+          From convenient appointment scheduling to receiving your encrypted digital report, our process is fast and transparent.
+        </p>
+      </div>
+
+      <div class="row g-4 mb-5">
+        <div class="col-md-6 col-lg-3">
+          <div class="timeline-step-card">
+            <div class="step-number-badge">01</div>
+            <h3 class="step-title">Book Your Test</h3>
+            <p class="step-desc">Select individual tests or packages online, choose your date, and select lab visit or home collection.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="timeline-step-card">
+            <div class="step-number-badge">02</div>
+            <h3 class="step-title">Visit or Home Pickup</h3>
+            <p class="step-desc">Visit any of our 4 certified labs or welcome a certified phlebotomist to your doorstep.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="timeline-step-card">
+            <div class="step-number-badge">03</div>
+            <h3 class="step-title">Sample Collection</h3>
+            <p class="step-desc">Hygienic collection with vacuum-sealed barcoded tubes, temperature-controlled transit, and zero mix-up risk.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="timeline-step-card">
+            <div class="step-number-badge">04</div>
+            <h3 class="step-title">Get Digital Report</h3>
+            <p class="step-desc">Receive verified digital PDF reports via SMS/email with interactive patient portal access.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Home Collection Banner -->
+      <div class="home-collection-banner">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <span class="badge-vitalis mb-3" style="background: rgba(0,212,190,0.2); color: #00D4BE; border-color: rgba(0,212,190,0.3);">
+              <i class="bi bi-house-door-fill"></i> Doorstep Convenience
+            </span>
+            <h2 class="text-white mb-3 fw-bold">Diagnostics From the Comfort of Home</h2>
+            <p class="text-white-50 mb-4" style="font-size: 1.05rem;">
+              Skip the traffic and clinic waiting rooms. Our certified phlebotomists arrive at your chosen time with sealed single-use collection kits and cold-chain sample transport containers.
+            </p>
+
+            <div class="row g-3 mb-4">
+              <div class="col-sm-6">
+                <div class="home-collection-feature">
+                  <i class="bi bi-shield-check"></i>
+                  <div>
+                    <h4 class="h6 text-white mb-1">100% Sterile & Hygienic</h4>
+                    <p class="small text-white-50 mb-0">Individually packed, disposable safety needles & tubes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="home-collection-feature">
+                  <i class="bi bi-clock-history"></i>
+                  <div>
+                    <h4 class="h6 text-white mb-1">Flexible Time Slots</h4>
+                    <p class="small text-white-50 mb-0">Early morning slots starting at 06:30 AM for fasting tests.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a href="#book-a-test" class="btn-vitalis btn-vitalis-white btn-vitalis-lg select-home-collection-btn">
+              <i class="bi bi-geo-alt-fill text-primary"></i> Schedule Home Collection
+            </a>
+          </div>
+
+          <div class="col-lg-5 text-center">
+            <div class="p-4 rounded-4" style="background: rgba(255, 255, 255, 0.08); backdrop-filter: blur(8px); border: 1px solid rgba(255, 255, 255, 0.15);">
+              <div class="d-inline-flex align-items-center justify-content-center mb-3 text-secondary" style="font-size: 3rem;">
+                <i class="bi bi-person-badge"></i>
+              </div>
+              <h3 class="h5 text-white fw-bold">Certified Phlebotomy Fleet</h3>
+              <p class="small text-white-50 mb-3">Trained for gentle, single-prick venipuncture across pediatric to geriatric patients.</p>
+              <div class="d-flex justify-content-center gap-2">
+                <span class="badge bg-secondary">Cold Chain Transit</span>
+                <span class="badge bg-secondary">GPS Monitored</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       5. 5-STEP DIAGNOSTIC BOOKING WIZARD (#book-a-test)
+       ========================================================================= -->
+  <section class="section-py" id="book-a-test">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge-vitalis"><i class="bi bi-calendar-check-fill"></i> Fast & Seamless Booking</span>
+        <h2 class="section-title">Schedule Your Diagnostic Test</h2>
+        <p class="section-desc text-muted mb-0">
+          Complete your appointment booking in 5 easy steps. Select your preferred test, date, time slot, and lab center or home collection mode.
+        </p>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10" id="bookingWizard">
+
+          <!-- Wizard Step Navigation Bar -->
+          <div class="wizard-progress-bar">
+            <button type="button" class="wizard-step-node active" data-step="1">
+              <div class="step-circle">1</div>
+              <span class="step-node-label">Patient Details</span>
+            </button>
+            <button type="button" class="wizard-step-node" data-step="2">
+              <div class="step-circle">2</div>
+              <span class="step-node-label">Service Type</span>
+            </button>
+            <button type="button" class="wizard-step-node" data-step="3">
+              <div class="step-circle">3</div>
+              <span class="step-node-label">Select Tests</span>
+            </button>
+            <button type="button" class="wizard-step-node" data-step="4">
+              <div class="step-circle">4</div>
+              <span class="step-node-label">Schedule & Slot</span>
+            </button>
+            <button type="button" class="wizard-step-node" data-step="5">
+              <div class="step-circle">5</div>
+              <span class="step-node-label">Review & Confirm</span>
+            </button>
+          </div>
+
+          <!-- Wizard Card Form Container -->
+          <div class="wizard-card">
+            <form id="wizardBookingForm" onsubmit="return false;">
+
+              <!-- STEP 1: PATIENT DETAILS -->
+              <div class="wizard-step-pane" id="stepPane1">
+                <div class="mb-4">
+                  <span class="badge-vitalis mb-2">Step 1 of 5</span>
+                  <h3 class="h4 fw-bold text-main mb-1">Patient Information</h3>
+                  <p class="text-muted small">Please provide the details of the patient undergoing the diagnostic test.</p>
+                </div>
+
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="patientFullName" class="form-label-vitalis">Full Name <span class="text-danger">*</span></label>
+                    <input type="text" id="patientFullName" class="form-control-vitalis" placeholder="e.g. Johnathan Doe" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="patientPhone" class="form-label-vitalis">Mobile Phone Number <span class="text-danger">*</span></label>
+                    <input type="tel" id="patientPhone" class="form-control-vitalis" placeholder="+1 (555) 234-5678" required>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="patientEmail" class="form-label-vitalis">Email Address <span class="text-danger">*</span></label>
+                    <input type="email" id="patientEmail" class="form-control-vitalis" placeholder="patient@example.com" required>
+                  </div>
+                  <div class="col-md-3 col-6">
+                    <label for="patientAge" class="form-label-vitalis">Age (Years) <span class="text-danger">*</span></label>
+                    <input type="number" id="patientAge" class="form-control-vitalis" min="1" max="120" placeholder="35" required>
+                  </div>
+                  <div class="col-md-3 col-6">
+                    <label for="patientGender" class="form-label-vitalis">Gender <span class="text-danger">*</span></label>
+                    <select id="patientGender" class="form-select-vitalis" required>
+                      <option value="">Select...</option>
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      <option value="Other">Other</option>
+                    </select>
+                  </div>
+                  <div class="col-12" id="homeCollectionAddressBox" style="display: none;">
+                    <label for="patientAddress" class="form-label-vitalis">Full Home Address (Required for Home Sample Collection)</label>
+                    <input type="text" id="patientAddress" class="form-control-vitalis" placeholder="Street Address, Apt / Suite, City, Zip Code">
+                  </div>
+                </div>
+              </div>
+
+              <!-- STEP 2: SERVICE TYPE -->
+              <div class="wizard-step-pane" id="stepPane2" style="display: none;">
+                <div class="mb-4">
+                  <span class="badge-vitalis mb-2">Step 2 of 5</span>
+                  <h3 class="h4 fw-bold text-main mb-1">Choose Service Category</h3>
+                  <p class="text-muted small">Select how you wish to organize your testing requirement.</p>
+                </div>
+
+                <div class="service-type-picker">
+                  <!-- Option 1 -->
+                  <div class="service-type-option selected" data-service="Individual Test">
+                    <div class="quick-action-icon mx-auto mb-3" style="background: var(--secondary-light); color: var(--secondary);">
+                      <i class="bi bi-droplet-half fs-3"></i>
+                    </div>
+                    <h4 class="h5 fw-bold mb-1">Individual Lab Test</h4>
+                    <p class="small text-muted mb-0">Choose specific blood, urine, or molecular tests from our catalog.</p>
+                  </div>
+
+                  <!-- Option 2 -->
+                  <div class="service-type-option" data-service="Health Package">
+                    <div class="quick-action-icon mx-auto mb-3" style="background: var(--primary-subtle); color: var(--primary);">
+                      <i class="bi bi-heart-pulse-fill fs-3"></i>
+                    </div>
+                    <h4 class="h5 fw-bold mb-1">Health Checkup Package</h4>
+                    <p class="small text-muted mb-0">Comprehensive profiles (Essential, Complete Wellness, Senior Vitality).</p>
+                  </div>
+
+                  <!-- Option 3 -->
+                  <div class="service-type-option" data-service="Home Sample Collection">
+                    <div class="quick-action-icon mx-auto mb-3" style="background: var(--secondary-light); color: var(--secondary);">
+                      <i class="bi bi-house-door-fill fs-3"></i>
+                    </div>
+                    <h4 class="h5 fw-bold mb-1">Home Sample Pickup</h4>
+                    <p class="small text-muted mb-0">Certified phlebotomist arrives at your home with sterile collection equipment.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- STEP 3: TEST SELECTION -->
+              <div class="wizard-step-pane" id="stepPane3" style="display: none;">
+                <div class="mb-4 d-flex justify-content-between align-items-center flex-wrap gap-2">
+                  <div>
+                    <span class="badge-vitalis mb-2">Step 3 of 5</span>
+                    <h3 class="h4 fw-bold text-main mb-1">Select Diagnostic Tests / Packages</h3>
+                    <p class="text-muted small mb-0">Check the items you want to schedule.</p>
+                  </div>
+                  <div class="text-end">
+                    <span class="small text-muted d-block">Subtotal Tally</span>
+                    <span class="h4 fw-bold text-secondary mb-0" id="wizardCalculatedPrice">$0.00</span>
+                  </div>
+                </div>
+
+                <div class="row g-3">
+                  <!-- Item 1 -->
+                  <div class="col-md-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                      <div class="form-check">
+                        <input class="form-check-input test-select-checkbox" type="checkbox" value="Complete Blood Count (CBC)" data-price="28" id="testCheck1">
+                        <label class="form-check-label fw-bold text-main ms-2" for="testCheck1">
+                          Complete Blood Count (CBC)
+                          <span class="d-block small fw-normal text-muted">24 Cellular Blood Parameters (6h TAT)</span>
+                        </label>
+                      </div>
+                      <span class="fw-bold text-secondary">$28.00</span>
+                    </div>
+                  </div>
+
+                  <!-- Item 2 -->
+                  <div class="col-md-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                      <div class="form-check">
+                        <input class="form-check-input test-select-checkbox" type="checkbox" value="Lipid Profile Extended" data-price="38" id="testCheck2">
+                        <label class="form-check-label fw-bold text-main ms-2" for="testCheck2">
+                          Lipid Profile Extended
+                          <span class="d-block small fw-normal text-muted">Total Cholesterol, HDL, LDL, Triglycerides</span>
+                        </label>
+                      </div>
+                      <span class="fw-bold text-secondary">$38.00</span>
+                    </div>
+                  </div>
+
+                  <!-- Item 3 -->
+                  <div class="col-md-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                      <div class="form-check">
+                        <input class="form-check-input test-select-checkbox" type="checkbox" value="Complete Thyroid Profile (T3, T4, TSH)" data-price="45" id="testCheck3">
+                        <label class="form-check-label fw-bold text-main ms-2" for="testCheck3">
+                          Complete Thyroid Profile
+                          <span class="d-block small fw-normal text-muted">Chemiluminescence T3, T4, TSH</span>
+                        </label>
+                      </div>
+                      <span class="fw-bold text-secondary">$45.00</span>
+                    </div>
+                  </div>
+
+                  <!-- Item 4 -->
+                  <div class="col-md-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                      <div class="form-check">
+                        <input class="form-check-input test-select-checkbox" type="checkbox" value="HbA1c Glycated Glucose" data-price="32" id="testCheck4">
+                        <label class="form-check-label fw-bold text-main ms-2" for="testCheck4">
+                          HbA1c Glycated Glucose
+                          <span class="d-block small fw-normal text-muted">3-Month Average Diabetes Index</span>
+                        </label>
+                      </div>
+                      <span class="fw-bold text-secondary">$32.00</span>
+                    </div>
+                  </div>
+
+                  <!-- Item 5 -->
+                  <div class="col-md-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                      <div class="form-check">
+                        <input class="form-check-input test-select-checkbox" type="checkbox" value="Vitamin D3 (25-Hydroxy)" data-price="48" id="testCheck5">
+                        <label class="form-check-label fw-bold text-main ms-2" for="testCheck5">
+                          Vitamin D3 (25-Hydroxy)
+                          <span class="d-block small fw-normal text-muted">Bone & Immune Health Marker</span>
+                        </label>
+                      </div>
+                      <span class="fw-bold text-secondary">$48.00</span>
+                    </div>
+                  </div>
+
+                  <!-- Item 6 -->
+                  <div class="col-md-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                      <div class="form-check">
+                        <input class="form-check-input test-select-checkbox" type="checkbox" value="Essential Health Check (42 Params)" data-price="69" id="testCheckPkg1">
+                        <label class="form-check-label fw-bold text-main ms-2" for="testCheckPkg1">
+                          Essential Health Check
+                          <span class="d-block small fw-normal text-muted">42 Parameters Baseline Health Check</span>
+                        </label>
+                      </div>
+                      <span class="fw-bold text-secondary">$69.00</span>
+                    </div>
+                  </div>
+
+                  <!-- Item 7 -->
+                  <div class="col-md-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                      <div class="form-check">
+                        <input class="form-check-input test-select-checkbox" type="checkbox" value="Complete Wellness Package (78 Params)" data-price="129" id="testCheck6">
+                        <label class="form-check-label fw-bold text-main ms-2" for="testCheck6">
+                          Complete Wellness Package
+                          <span class="d-block small fw-normal text-muted">Full Body 78-Parameter Comprehensive</span>
+                        </label>
+                      </div>
+                      <span class="fw-bold text-secondary">$129.00</span>
+                    </div>
+                  </div>
+
+                  <!-- Item 8 -->
+                  <div class="col-md-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                      <div class="form-check">
+                        <input class="form-check-input test-select-checkbox" type="checkbox" value="Executive Men's Health (84 Params)" data-price="169" id="testCheckPkg2">
+                        <label class="form-check-label fw-bold text-main ms-2" for="testCheckPkg2">
+                          Executive Men's Health
+                          <span class="d-block small fw-normal text-muted">84 Parameters, PSA & Testosterone</span>
+                        </label>
+                      </div>
+                      <span class="fw-bold text-secondary">$169.00</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- STEP 4: SCHEDULE & TIME SLOT -->
+              <div class="wizard-step-pane" id="stepPane4" style="display: none;">
+                <div class="mb-4">
+                  <span class="badge-vitalis mb-2">Step 4 of 5</span>
+                  <h3 class="h4 fw-bold text-main mb-1">Appointment Schedule & Location</h3>
+                  <p class="text-muted small">Choose your preferred appointment date, time window, and collection method.</p>
+                </div>
+
+                <div class="row g-4">
+                  <div class="col-md-6">
+                    <label for="appointmentDate" class="form-label-vitalis">Preferred Appointment Date <span class="text-danger">*</span></label>
+                    <input type="date" id="appointmentDate" class="form-control-vitalis" required>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label class="form-label-vitalis">Collection Method <span class="text-danger">*</span></label>
+                    <div class="d-flex gap-3 pt-1">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="collectionType" id="colLab" value="Lab Center Visit" checked>
+                        <label class="form-check-label fw-semibold" for="colLab">Lab Visit</label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="collectionType" id="colHome" value="Home Sample Collection">
+                        <label class="form-check-label fw-semibold" for="colHome">Home Collection</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-12" id="centerLocationSelectBox">
+                    <label for="centerLocationSelect" class="form-label-vitalis">Diagnostic Center Facility</label>
+                    <select id="centerLocationSelect" class="form-select-vitalis">
+                      <option value="Central Diagnostic Hub — Downtown (742 Diagnostic Blvd)">Central Diagnostic Hub — Downtown (742 Diagnostic Blvd, NY)</option>
+                      <option value="Northside Clinical Laboratory (128 Healthcare Pkwy)">Northside Clinical Laboratory (128 Healthcare Pkwy, NY)</option>
+                      <option value="West End Medical & Molecular Center (540 Science Ave)">West End Medical & Molecular Center (540 Science Ave, NY)</option>
+                      <option value="East River Pathology Center (88 Queens Blvd)">East River Pathology Center (88 Queens Blvd, NY)</option>
+                    </select>
+                  </div>
+
+                  <div class="col-12">
+                    <label class="form-label-vitalis">Preferred Time Window</label>
+                    <div class="time-slot-grid">
+                      <div class="time-slot-btn selected" data-slot="06:30 AM - 07:30 AM">06:30 AM</div>
+                      <div class="time-slot-btn" data-slot="07:30 AM - 08:30 AM">07:30 AM</div>
+                      <div class="time-slot-btn" data-slot="08:30 AM - 09:30 AM">08:30 AM</div>
+                      <div class="time-slot-btn" data-slot="09:30 AM - 10:30 AM">09:30 AM</div>
+                      <div class="time-slot-btn" data-slot="11:00 AM - 12:00 PM">11:00 AM</div>
+                      <div class="time-slot-btn" data-slot="02:00 PM - 03:00 PM">02:00 PM</div>
+                      <div class="time-slot-btn" data-slot="04:00 PM - 05:00 PM">04:00 PM</div>
+                      <div class="time-slot-btn" data-slot="06:00 PM - 07:00 PM">06:00 PM</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- STEP 5: REVIEW & CONFIRMATION -->
+              <div class="wizard-step-pane" id="stepPane5" style="display: none;">
+                <div class="mb-4">
+                  <span class="badge-vitalis mb-2">Step 5 of 5</span>
+                  <h3 class="h4 fw-bold text-main mb-1">Review Appointment Summary</h3>
+                  <p class="text-muted small">Please verify your booking details before final confirmation.</p>
+                </div>
+
+                <div id="bookingReviewSummary" class="mb-4">
+                  <!-- Dynamically populated by main.js -->
+                </div>
+
+                <div class="form-check p-3 rounded-3 bg-subtle border">
+                  <input class="form-check-input ms-0 me-2" type="checkbox" id="termsCheck" checked required>
+                  <label class="form-check-label small text-muted" for="termsCheck">
+                    I confirm that the patient details are accurate and agree to Vitalis Labs sample collection protocols & privacy guidelines.
+                  </label>
+                </div>
+              </div>
+
+              <!-- Wizard Controls (Prev & Next) -->
+              <div class="d-flex justify-content-between align-items-center mt-5 pt-3 border-top">
+                <button type="button" class="btn-vitalis btn-vitalis-outline" id="wizardPrevBtn" style="visibility: hidden;">
+                  <i class="bi bi-arrow-left me-1"></i> Back
+                </button>
+                <button type="button" class="btn-vitalis btn-vitalis-primary" id="wizardNextBtn">
+                  Continue to Next Step <i class="bi bi-arrow-right ms-1"></i>
+                </button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. PATIENT PORTAL / DOWNLOAD REPORT SECTION
+       ========================================================================= -->
+  <section class="section-py bg-alt" id="reportAccessSection">
+    <div class="container">
+      <div class="report-access-box">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <div class="d-flex align-items-center gap-3 mb-2">
+              <div class="author-avatar" style="background: var(--secondary-light); color: var(--secondary);">
+                <i class="bi bi-file-earmark-medical fs-4"></i>
+              </div>
+              <div>
+                <h3 class="h4 fw-bold mb-0">Already Have a Test?</h3>
+                <span class="small text-muted">Access and download your official report online</span>
+              </div>
+            </div>
+            <p class="small text-muted mb-0">Enter your Patient ID and Report Reference Number printed on your billing receipt or SMS confirmation.</p>
+          </div>
+
+          <div class="col-lg-7">
+            <form id="reportAccessForm" class="row g-2">
+              <div class="col-sm-5">
+                <input type="text" id="reportPatientId" class="form-control-vitalis" placeholder="Patient ID (e.g. PID-4829)" required>
+              </div>
+              <div class="col-sm-4">
+                <input type="text" id="reportAccessId" class="form-control-vitalis" placeholder="Report ID (e.g. REP-8910)" required>
+              </div>
+              <div class="col-sm-3">
+                <button type="submit" class="btn-vitalis btn-vitalis-primary w-100 h-100">
+                  <i class="bi bi-search"></i> View Report
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PATIENT TESTIMONIALS & QUALITY METRICS -->
+  <section class="section-py">
+    <div class="container">
+      <div class="row align-items-center g-5 mb-5">
+        <div class="col-lg-6">
+          <span class="badge-vitalis mb-2">The Vitalis Difference</span>
+          <h2 class="section-title">Why Patients & Physicians Trust Vitalis Labs</h2>
+          <p class="text-muted mb-4">
+            Diagnostic accuracy is the foundation of effective medical treatment. We maintain rigorous standards at every stage of the testing lifecycle.
+          </p>
+
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-secondary fs-5"></i>
+                <div>
+                  <h4 class="h6 fw-bold mb-1">Senior MD Pathologists</h4>
+                  <p class="small text-muted">All abnormal values dual-verified by specialists.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-secondary fs-5"></i>
+                <div>
+                  <h4 class="h6 fw-bold mb-1">Fast Turnaround</h4>
+                  <p class="small text-muted">Routine results ready in as little as 6 hours.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-secondary fs-5"></i>
+                <div>
+                  <h4 class="h6 fw-bold mb-1">Barcode Traceability</h4>
+                  <p class="small text-muted">Zero sample mix-up with 2D barcode system.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-start gap-2">
+                <i class="bi bi-check-circle-fill text-secondary fs-5"></i>
+                <div>
+                  <h4 class="h6 fw-bold mb-1">Encrypted Privacy</h4>
+                  <p class="small text-muted">Strict patient confidentiality & HIPAA compliant.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="p-4 p-md-5 rounded-4 border bg-surface shadow-sm">
+            <h3 class="h4 fw-bold mb-3">Clinical Quality Commitment</h3>
+            <p class="text-muted mb-4">Every test run undergoes standard operating calibration before processing clinical specimens.</p>
+            
+            <div class="mb-3">
+              <div class="d-flex justify-content-between small fw-semibold mb-1">
+                <span>Internal Quality Control (IQC)</span>
+                <span>100% Calibrated</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-secondary" style="width: 100%;"></div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <div class="d-flex justify-content-between small fw-semibold mb-1">
+                <span>Automated Cross-Verification</span>
+                <span>99.8% Reliability</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-primary" style="width: 99.8%;"></div>
+              </div>
+            </div>
+
+            <div>
+              <div class="d-flex justify-content-between small fw-semibold mb-1">
+                <span>On-Time Report Delivery</span>
+                <span>98.5% Rate</span>
+              </div>
+              <div class="progress" style="height: 6px;">
+                <div class="progress-bar bg-success" style="width: 98.5%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial Cards -->
+      <div class="section-header text-center pt-3">
+        <span class="badge-vitalis">Patient Stories</span>
+        <h2 class="section-title">What Our Patients Say</h2>
+        <p class="section-desc text-muted">
+          Read verified experiences from patients who rely on Vitalis Labs for accurate diagnostic services.
+        </p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Testimonial 1 -->
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p class="testimonial-text">
+              "The home collection service was phenomenal. The phlebotomist arrived right at 7 AM, was exceptionally gentle with the blood draw, and my Complete Wellness report was emailed by 3 PM."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">EM</div>
+              <div>
+                <h4 class="author-name">Eleanor Miller</h4>
+                <span class="author-service">Complete Wellness Panel</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p class="testimonial-text">
+              "As someone who monitors HbA1c and lipid levels quarterly, Vitalis Labs is by far the cleanest and most tech-forward laboratory I've visited. Seamless report downloading online."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">DR</div>
+              <div>
+                <h4 class="author-name">David Reynolds</h4>
+                <span class="author-service">Diabetes & Cardiac Monitoring</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="col-md-4">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            </div>
+            <p class="testimonial-text">
+              "My doctor specifically recommended Vitalis Labs for thyroid and hormone profiling due to their molecular analyzer precision. Prompt service and transparent pricing."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SC</div>
+              <div>
+                <h4 class="author-name">Sophia Chen</h4>
+                <span class="author-service">Thyroid & Hormone Profile</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. CONTACT & DIAGNOSTIC CENTERS (#contact)
+       ========================================================================= -->
+  <section class="section-py bg-alt" id="contact">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="badge-vitalis"><i class="bi bi-geo-alt-fill"></i> Accessible Care</span>
+        <h2 class="section-title">Get in Touch with Vitalis Labs</h2>
+        <p class="section-desc text-muted">
+          Have questions regarding diagnostic tests, sample collection, or test reports? Our laboratory medical desk is ready to help.
+        </p>
+      </div>
+
+      <!-- Quick Contact Info Cards -->
+      <div class="row g-4 mb-5">
+        <div class="col-md-3 col-sm-6">
+          <div class="category-card text-center align-items-center">
+            <div class="category-icon-box"><i class="bi bi-telephone-fill"></i></div>
+            <h4 class="h5 fw-bold mb-1">Phone & WhatsApp</h4>
+            <p class="small text-muted mb-2">Toll-Free Patient Desk</p>
+            <a href="tel:+18005550199" class="fw-bold text-secondary">+1 (800) 555-0199</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="category-card text-center align-items-center">
+            <div class="category-icon-box"><i class="bi bi-envelope-fill"></i></div>
+            <h4 class="h5 fw-bold mb-1">Email Inquiries</h4>
+            <p class="small text-muted mb-2">Reports & Questions</p>
+            <a href="mailto:support@vitalislabs.example" class="fw-bold text-secondary">support@vitalislabs.example</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="category-card text-center align-items-center">
+            <div class="category-icon-box"><i class="bi bi-geo-alt-fill"></i></div>
+            <h4 class="h5 fw-bold mb-1">Central Laboratory</h4>
+            <p class="small text-muted mb-2">742 Diagnostic Blvd, Suite 400</p>
+            <span class="small fw-semibold text-main">New York, NY 10016</span>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="category-card text-center align-items-center">
+            <div class="category-icon-box"><i class="bi bi-clock-fill"></i></div>
+            <h4 class="h5 fw-bold mb-1">Operating Hours</h4>
+            <p class="small text-muted mb-0">Mon – Sat: 06:30 AM – 09:00 PM</p>
+            <p class="small text-muted mb-0">Sun: 07:00 AM – 02:00 PM</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form & Centers Location -->
+      <div class="row g-5 align-items-start mb-5">
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+          <div class="p-4 p-md-5 rounded-4 border bg-surface shadow-sm">
+            <span class="badge-vitalis mb-2">Online Message</span>
+            <h3 class="h3 fw-bold mb-3">Send Us a Direct Message</h3>
+            <p class="text-muted small mb-4">
+              Fill in the form below and our laboratory customer support desk will respond within 2 business hours.
+            </p>
+
+            <form id="vitalisContactForm" class="row g-3">
+              <div class="col-md-6">
+                <label for="contactName" class="form-label-vitalis">Full Name <span class="text-danger">*</span></label>
+                <input type="text" id="contactName" class="form-control-vitalis" placeholder="e.g. Sarah Jenkins" required>
+              </div>
+
+              <div class="col-md-6">
+                <label for="contactEmail" class="form-label-vitalis">Email Address <span class="text-danger">*</span></label>
+                <input type="email" id="contactEmail" class="form-control-vitalis" placeholder="name@example.com" required>
+              </div>
+
+              <div class="col-md-6">
+                <label for="contactPhone" class="form-label-vitalis">Phone Number</label>
+                <input type="tel" id="contactPhone" class="form-control-vitalis" placeholder="+1 (555) 000-0000">
+              </div>
+
+              <div class="col-md-6">
+                <label for="contactSubject" class="form-label-vitalis">Inquiry Subject</label>
+                <select id="contactSubject" class="form-select-vitalis">
+                  <option value="General Test Question">General Test Question</option>
+                  <option value="Home Collection Query">Home Collection Query</option>
+                  <option value="Report Access Assistance">Report Access Assistance</option>
+                  <option value="Corporate / Health Packages">Corporate / Health Packages</option>
+                  <option value="Physician Referral">Physician Referral</option>
+                </select>
+              </div>
+
+              <div class="col-12">
+                <label for="contactMessage" class="form-label-vitalis">Your Message <span class="text-danger">*</span></label>
+                <textarea id="contactMessage" rows="4" class="form-control-vitalis" placeholder="How can we assist you regarding your diagnostic needs?" required></textarea>
+              </div>
+
+              <div class="col-12 mt-4">
+                <button type="submit" class="btn-vitalis btn-vitalis-primary btn-vitalis-lg w-100">
+                  <i class="bi bi-send-fill"></i> Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Centers & Quick Help -->
+        <div class="col-lg-5">
+          <!-- 4 Branch Locations -->
+          <div class="p-4 rounded-4 border bg-surface shadow-sm mb-4">
+            <h3 class="h5 fw-bold mb-3"><i class="bi bi-buildings text-secondary me-2"></i>Our Diagnostic Centers</h3>
+            
+            <div class="py-2 border-bottom">
+              <h4 class="h6 fw-bold text-main mb-1">1. Central Diagnostics Hub — Downtown</h4>
+              <p class="small text-muted mb-1">742 Diagnostic Blvd, Suite 400, NY 10016</p>
+              <span class="small text-secondary fw-semibold"><i class="bi bi-telephone me-1"></i> +1 (800) 555-0199</span>
+            </div>
+
+            <div class="py-2 border-bottom">
+              <h4 class="h6 fw-bold text-main mb-1">2. Northside Clinical Laboratory</h4>
+              <p class="small text-muted mb-1">128 Healthcare Parkway, 2nd Floor, NY 10024</p>
+              <span class="small text-secondary fw-semibold"><i class="bi bi-telephone me-1"></i> +1 (800) 555-0198</span>
+            </div>
+
+            <div class="py-2 border-bottom">
+              <h4 class="h6 fw-bold text-main mb-1">3. West End Medical & Molecular Center</h4>
+              <p class="small text-muted mb-1">540 Science Avenue, Medical Plaza, NY 10019</p>
+              <span class="small text-secondary fw-semibold"><i class="bi bi-telephone me-1"></i> +1 (800) 555-0197</span>
+            </div>
+
+            <div class="pt-2">
+              <h4 class="h6 fw-bold text-main mb-1">4. East River Pathology Center</h4>
+              <p class="small text-muted mb-1">88 Queens Boulevard, Suite 102, NY 11101</p>
+              <span class="small text-secondary fw-semibold"><i class="bi bi-telephone me-1"></i> +1 (800) 555-0196</span>
+            </div>
+          </div>
+
+          <!-- Direct Phone Help Card -->
+          <div class="p-4 rounded-4 text-white shadow-sm" style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);">
+            <span class="badge-vitalis mb-2" style="background: rgba(0, 212, 190, 0.2); color: #00D4BE; border-color: rgba(0, 212, 190, 0.3);">24/7 Guidance</span>
+            <h3 class="h5 fw-bold text-white mb-2">Need Urgent Phlebotomy Advice?</h3>
+            <p class="text-white-50 small mb-3">
+              Our clinical phlebotomists are available on call to answer questions about fasting hours, sample preparation, or pediatric care.
+            </p>
+            <a href="tel:+18005550199" class="btn-vitalis btn-vitalis-secondary w-100">
+              <i class="bi bi-telephone-fill"></i> Call +1 (800) 555-0199
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FINAL CALL TO ACTION -->
+  <section class="section-py bg-primary text-white text-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <span class="badge-vitalis mb-3" style="background: rgba(0, 212, 190, 0.2); color: #00D4BE; border-color: rgba(0, 212, 190, 0.3);">
+            Take Charge of Your Health
+          </span>
+          <h2 class="text-white fw-bold mb-3">Your Health Deserves Clear Answers.</h2>
+          <p class="text-white-50 mb-4" style="font-size: 1.15rem;">
+            Book your diagnostic test today and take the next step toward informed health awareness with fast, confidential results.
+          </p>
+          <div class="d-flex flex-wrap justify-content-center gap-3">
+            <a href="#book-a-test" class="btn-vitalis btn-vitalis-secondary btn-vitalis-lg">
+              <i class="bi bi-calendar2-plus-fill"></i> Book a Test Now
+            </a>
+            <a href="#contact" class="btn-vitalis btn-vitalis-outline text-white border-white btn-vitalis-lg">
+              <i class="bi bi-telephone-fill"></i> Contact Laboratory
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="vitalis-footer">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Column 1: Brand -->
+        <div class="col-lg-4 col-md-6">
+          <div class="navbar-brand-vitalis mb-3">
+            <div class="brand-logo-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L15 8H9L12 2Z" fill="white"/>
+                <circle cx="12" cy="14" r="6" stroke="white" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title text-white">VITALIS<span class="text-secondary">LABS</span></span>
+            </div>
+          </div>
+          <p class="footer-desc">
+            Next-generation clinical laboratory providing high-precision pathology, robotic sample analysis, and preventive health screenings.
+          </p>
+          <div class="d-flex gap-2">
+            <a href="#" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm text-white" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm text-white" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm text-white" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm text-white" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links (Same 5 Nav Items) -->
+        <div class="col-lg-2 col-md-6 col-6">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#home"><i class="bi bi-chevron-right"></i> Home</a></li>
+            <li><a href="#about"><i class="bi bi-chevron-right"></i> About</a></li>
+            <li><a href="#tests-services"><i class="bi bi-chevron-right"></i> Tests & Services</a></li>
+            <li><a href="#health-packages"><i class="bi bi-chevron-right"></i> Health Packages</a></li>
+            <li><a href="#contact"><i class="bi bi-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Patient Services -->
+        <div class="col-lg-3 col-md-6 col-6">
+          <h4 class="footer-heading">Patient Services</h4>
+          <ul class="footer-links">
+            <li><a href="#book-a-test"><i class="bi bi-chevron-right"></i> Book a Test</a></li>
+            <li><a href="#book-a-test" class="select-home-collection-btn"><i class="bi bi-chevron-right"></i> Home Sample Pickup</a></li>
+            <li><a href="#reportAccessSection"><i class="bi bi-chevron-right"></i> Download Report</a></li>
+            <li><a href="#privacyPolicyModal" data-bs-toggle="modal"><i class="bi bi-chevron-right"></i> Privacy Policy</a></li>
+            <li><a href="#termsModal" data-bs-toggle="modal"><i class="bi bi-chevron-right"></i> Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact Information -->
+        <div class="col-lg-3 col-md-6">
+          <h4 class="footer-heading">Central Laboratory</h4>
+          <div class="footer-contact-item">
+            <i class="bi bi-geo-alt-fill"></i>
+            <span>742 Diagnostic Boulevard, Suite 400, Healthcare District, NY 10016</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-telephone-fill"></i>
+            <span>+1 (800) 555-0199</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-envelope-fill"></i>
+            <span>info@vitalislabs.example</span>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-clock-fill"></i>
+            <span>Mon–Sat: 06:30 AM – 09:00 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom d-flex flex-wrap justify-content-between align-items-center gap-3">
+        <div>
+          © 2026 Vitalis Labs. All Rights Reserved. (Precision Medical Diagnostic Center)
+        </div>
+        <div class="d-flex gap-3">
+          <a href="#privacyPolicyModal" data-bs-toggle="modal" class="text-muted hover-teal">Privacy Policy</a>
+          <a href="#termsModal" data-bs-toggle="modal" class="text-muted hover-teal">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP BUTTON -->
+  <button class="back-to-top" aria-label="Scroll back to top" title="Scroll to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- =========================================================================
+       GLOBAL MODALS (No Multi-Page Transitions Needed)
+       ========================================================================= -->
+
+  <!-- 1. CLINICAL TEST DETAILS MODAL -->
+  <div class="modal fade" id="clinicalTestModal" tabindex="-1" aria-labelledby="clinicalTestModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content border-0 shadow-lg">
+        <div class="modal-header bg-primary text-white border-0 py-3">
+          <div>
+            <span class="badge badge-vitalis mb-1" id="modalTestCategory">Hematology Assay</span>
+            <h4 class="modal-title fw-bold" id="modalTestTitle">Test Details</h4>
+          </div>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4" id="modalTestBody">
+          <!-- Dynamic Content Injected by JavaScript -->
+        </div>
+        <div class="modal-footer bg-subtle border-0 py-3 d-flex justify-content-between">
+          <div class="d-flex align-items-center gap-2">
+            <span class="text-muted small">Standard Fee:</span>
+            <span class="h4 fw-bold text-secondary mb-0" id="modalTestPrice">$28.00</span>
+          </div>
+          <div class="d-flex gap-2">
+            <button type="button" class="btn-vitalis btn-vitalis-outline" data-bs-dismiss="modal">Close</button>
+            <a href="#book-a-test" class="btn-vitalis btn-vitalis-primary" id="modalBookNowBtn" data-bs-dismiss="modal">
+              <i class="bi bi-calendar-plus-fill"></i> Book This Test
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. PRIVACY POLICY MODAL -->
+  <div class="modal fade" id="privacyPolicyModal" tabindex="-1" aria-labelledby="privacyPolicyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content border-0 shadow-lg">
+        <div class="modal-header bg-primary text-white border-0 py-3">
+          <div>
+            <h4 class="modal-title fw-bold"><i class="bi bi-shield-lock-fill me-2"></i>Privacy & Patient Data Policy</h4>
+            <small class="text-light">Vitalis Labs Clinical Information Compliance</small>
+          </div>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <h5 class="fw-bold mb-2">1. Scope and Healthcare Data Protection</h5>
+          <p class="text-muted small">
+            At Vitalis Labs, safeguarding Protected Health Information (PHI) and biological specimen integrity is our highest operational priority. Diagnostic records, billing details, and clinical data are protected under high-grade 256-bit encryption.
+          </p>
+
+          <h5 class="fw-bold mt-4 mb-2">2. Information Collection</h5>
+          <p class="text-muted small">
+            We collect patient demographic information, test requisition parameters, ordering physician records, and specimen collection timestamps solely for accurate diagnostic reporting and mandatory health accreditation records.
+          </p>
+
+          <h5 class="fw-bold mt-4 mb-2">3. Digital Report Security</h5>
+          <p class="text-muted small">
+            Electronic reports are accessible only via verified two-factor matching (Patient ID + Report Reference ID) through our encrypted Patient Portal. We never share patient records with third-party advertisers.
+          </p>
+
+          <h5 class="fw-bold mt-4 mb-2">4. Specimen Storage & Disposal</h5>
+          <p class="text-muted small">
+            Biological samples are safely discarded after clinical retention periods in full accordance with biomedical waste management standards.
+          </p>
+        </div>
+        <div class="modal-footer bg-subtle border-0">
+          <button type="button" class="btn-vitalis btn-vitalis-primary" data-bs-dismiss="modal">Understood & Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. TERMS & CONDITIONS MODAL -->
+  <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content border-0 shadow-lg">
+        <div class="modal-header bg-primary text-white border-0 py-3">
+          <div>
+            <h4 class="modal-title fw-bold"><i class="bi bi-file-text-fill me-2"></i>Terms & Service Conditions</h4>
+            <small class="text-light">Laboratory Testing & Home Collection Guidelines</small>
+          </div>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <h5 class="fw-bold mb-2">1. Diagnostic Testing Agreement</h5>
+          <p class="text-muted small">
+            By booking a laboratory test or health package at Vitalis Labs, you authorize our certified phlebotomists and technologists to collect biological specimens and process the ordered diagnostic profiles.
+          </p>
+
+          <h5 class="fw-bold mt-4 mb-2">2. Fasting & Preparation Responsibility</h5>
+          <p class="text-muted small">
+            Patients are responsible for following fasting requirements (e.g. 10–12 hours for Lipid Profile / Glucose tests) to ensure assay accuracy. Non-compliance may result in invalid baseline figures requiring re-collection.
+          </p>
+
+          <h5 class="fw-bold mt-4 mb-2">3. Report Turnaround Times (TAT)</h5>
+          <p class="text-muted small">
+            Routine blood assays are typically finalized within 6 to 12 hours. Specialized endocrine, microbiological cultures, and molecular PCR assays may require 24 to 48 hours for clinical incubation.
+          </p>
+
+          <h5 class="fw-bold mt-4 mb-2">4. Medical Interpretation Disclaimer</h5>
+          <p class="text-muted small">
+            Laboratory values are clinical diagnostic indicators and must be interpreted by a licensed physician in context with overall clinical symptoms and medical history.
+          </p>
+        </div>
+        <div class="modal-footer bg-subtle border-0">
+          <button type="button" class="btn-vitalis btn-vitalis-primary" data-bs-dismiss="modal">I Agree & Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 Bundle JS & Main Engine -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
