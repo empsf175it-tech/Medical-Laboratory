@@ -106,14 +106,20 @@
   <!-- MOBILE OFFCANVAS NAVIGATION MENU (Same 5 Nav Items) -->
   <div class="offcanvas offcanvas-end" tabindex="-1" id="vitalisOffcanvasNav" aria-labelledby="vitalisOffcanvasNavLabel">
     <div class="offcanvas-header border-bottom d-flex justify-content-between align-items-center w-100">
-      <div class="navbar-brand-vitalis">
+      <a class="navbar-brand-vitalis" href="#home" data-bs-dismiss="offcanvas">
         <div class="brand-logo-icon">
-          <i class="bi bi-activity text-white"></i>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L15 8H9L12 2Z" fill="white"/>
+            <circle cx="12" cy="14" r="6" stroke="white" stroke-width="2.5"/>
+            <path d="M9 14H15" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <path d="M12 11V17" stroke="white" stroke-width="2" stroke-linecap="round"/>
+          </svg>
         </div>
         <div class="brand-text">
           <span class="brand-title">VITALIS<span>LABS</span></span>
+          <span class="brand-subtitle">Diagnostic Excellence</span>
         </div>
-      </div>
+      </a>
       <button type="button" class="btn-close-vitalis shadow-none ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x-lg"></i></button>
     </div>
     <div class="offcanvas-body d-flex flex-column justify-content-between p-4 text-center">
@@ -409,36 +415,36 @@
 
         <div class="row g-3 justify-content-center">
           <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="category-card text-center text-sm-start">
-              <div class="category-icon-box mx-auto mx-sm-0"><i class="bi bi-crosshair"></i></div>
+            <div class="category-card text-center">
+              <div class="category-icon-box mx-auto"><i class="bi bi-crosshair"></i></div>
               <h4 class="category-title">1. Uncompromising Accuracy</h4>
               <p class="category-desc">Precision is our benchmark. We maintain multi-stage validation checks to guarantee trustworthy assay numbers.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="category-card text-center text-sm-start">
-              <div class="category-icon-box mx-auto mx-sm-0"><i class="bi bi-shield-check"></i></div>
+            <div class="category-card text-center">
+              <div class="category-icon-box mx-auto"><i class="bi bi-shield-check"></i></div>
               <h4 class="category-title">2. Absolute Integrity</h4>
               <p class="category-desc">Transparent reporting, ethical testing protocols, and complete patient confidentiality at all times.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="category-card text-center text-sm-start">
-              <div class="category-icon-box mx-auto mx-sm-0"><i class="bi bi-heart-pulse"></i></div>
+            <div class="category-card text-center">
+              <div class="category-icon-box mx-auto"><i class="bi bi-heart-pulse"></i></div>
               <h4 class="category-title">3. Patient First Mindset</h4>
               <p class="category-desc">Gentle sample collection, prompt communication, and affordable preventive checkup options.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="category-card text-center text-sm-start">
-              <div class="category-icon-box mx-auto mx-sm-0"><i class="bi bi-cpu"></i></div>
+            <div class="category-card text-center">
+              <div class="category-icon-box mx-auto"><i class="bi bi-cpu"></i></div>
               <h4 class="category-title">4. Technology & Innovation</h4>
               <p class="category-desc">Embracing automated chemistry analyzers, digital pathology, and modern molecular diagnostics.</p>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="category-card text-center text-sm-start">
-              <div class="category-icon-box mx-auto mx-sm-0"><i class="bi bi-patch-check-fill"></i></div>
+            <div class="category-card text-center">
+              <div class="category-icon-box mx-auto"><i class="bi bi-patch-check-fill"></i></div>
               <h4 class="category-title">5. Continuous Quality Culture</h4>
               <p class="category-desc">Rigorous internal and external proficiency testing calibrated against international pathology benchmarks.</p>
             </div>
@@ -457,8 +463,8 @@
         <div class="row g-4 justify-content-center">
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="category-card text-center align-items-center">
-              <div class="author-avatar mb-3" style="width: 80px; height: 80px; font-size: 1.75rem; background: var(--secondary-light); color: var(--secondary);">
-                <i class="bi bi-person-fill"></i>
+              <div class="author-avatar mb-3" style="width: 80px; height: 80px;">
+                <img src="assets/images/expert-vance.jpg" alt="Dr. Arthur Vance, Chief Medical Officer & Pathologist">
               </div>
               <h4 class="h5 fw-bold mb-1">Dr. Arthur Vance, MD, FACP</h4>
               <span class="badge-tag mb-3">Chief Medical Officer & Pathologist</span>
@@ -468,8 +474,8 @@
 
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="category-card text-center align-items-center">
-              <div class="author-avatar mb-3" style="width: 80px; height: 80px; font-size: 1.75rem; background: var(--primary-subtle); color: var(--secondary);">
-                <i class="bi bi-person-fill"></i>
+              <div class="author-avatar mb-3" style="width: 80px; height: 80px;">
+                <img src="assets/images/expert-rossi.jpg" alt="Dr. Elena Rossi, Head of Molecular Diagnostics">
               </div>
               <h4 class="h5 fw-bold mb-1">Dr. Elena Rossi, PhD</h4>
               <span class="badge-tag mb-3">Head of Molecular Diagnostics</span>
@@ -479,8 +485,8 @@
 
           <div class="col-lg-4 col-md-6 col-sm-6">
             <div class="category-card text-center align-items-center">
-              <div class="author-avatar mb-3" style="width: 80px; height: 80px; font-size: 1.75rem; background: var(--secondary-light); color: var(--secondary);">
-                <i class="bi bi-person-fill"></i>
+              <div class="author-avatar mb-3" style="width: 80px; height: 80px;">
+                <img src="assets/images/expert-thorne.jpg" alt="Marcus Thorne, Lead Clinical Biochemist">
               </div>
               <h4 class="h5 fw-bold mb-1">Marcus Thorne, MSc</h4>
               <span class="badge-tag mb-3">Lead Clinical Biochemist</span>
@@ -1332,8 +1338,8 @@
 
                 <div class="row g-3">
                   <!-- Item 1 -->
-                  <div class="col-md-6">
-                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between h-100">
                       <div class="form-check">
                         <input class="form-check-input test-select-checkbox" type="checkbox" value="Complete Blood Count (CBC)" data-price="28" id="testCheck1">
                         <label class="form-check-label fw-bold text-main ms-2" for="testCheck1">
@@ -1341,13 +1347,13 @@
                           <span class="d-block small fw-normal text-muted">24 Cellular Blood Parameters (6h TAT)</span>
                         </label>
                       </div>
-                      <span class="fw-bold text-secondary">$28.00</span>
+                      <span class="fw-bold text-secondary flex-shrink-0 ms-2">$28.00</span>
                     </div>
                   </div>
 
                   <!-- Item 2 -->
-                  <div class="col-md-6">
-                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between h-100">
                       <div class="form-check">
                         <input class="form-check-input test-select-checkbox" type="checkbox" value="Lipid Profile Extended" data-price="38" id="testCheck2">
                         <label class="form-check-label fw-bold text-main ms-2" for="testCheck2">
@@ -1355,13 +1361,13 @@
                           <span class="d-block small fw-normal text-muted">Total Cholesterol, HDL, LDL, Triglycerides</span>
                         </label>
                       </div>
-                      <span class="fw-bold text-secondary">$38.00</span>
+                      <span class="fw-bold text-secondary flex-shrink-0 ms-2">$38.00</span>
                     </div>
                   </div>
 
                   <!-- Item 3 -->
-                  <div class="col-md-6">
-                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between h-100">
                       <div class="form-check">
                         <input class="form-check-input test-select-checkbox" type="checkbox" value="Complete Thyroid Profile (T3, T4, TSH)" data-price="45" id="testCheck3">
                         <label class="form-check-label fw-bold text-main ms-2" for="testCheck3">
@@ -1369,13 +1375,13 @@
                           <span class="d-block small fw-normal text-muted">Chemiluminescence T3, T4, TSH</span>
                         </label>
                       </div>
-                      <span class="fw-bold text-secondary">$45.00</span>
+                      <span class="fw-bold text-secondary flex-shrink-0 ms-2">$45.00</span>
                     </div>
                   </div>
 
                   <!-- Item 4 -->
-                  <div class="col-md-6">
-                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between h-100">
                       <div class="form-check">
                         <input class="form-check-input test-select-checkbox" type="checkbox" value="HbA1c Glycated Glucose" data-price="32" id="testCheck4">
                         <label class="form-check-label fw-bold text-main ms-2" for="testCheck4">
@@ -1383,13 +1389,13 @@
                           <span class="d-block small fw-normal text-muted">3-Month Average Diabetes Index</span>
                         </label>
                       </div>
-                      <span class="fw-bold text-secondary">$32.00</span>
+                      <span class="fw-bold text-secondary flex-shrink-0 ms-2">$32.00</span>
                     </div>
                   </div>
 
                   <!-- Item 5 -->
-                  <div class="col-md-6">
-                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between h-100">
                       <div class="form-check">
                         <input class="form-check-input test-select-checkbox" type="checkbox" value="Vitamin D3 (25-Hydroxy)" data-price="48" id="testCheck5">
                         <label class="form-check-label fw-bold text-main ms-2" for="testCheck5">
@@ -1397,13 +1403,13 @@
                           <span class="d-block small fw-normal text-muted">Bone & Immune Health Marker</span>
                         </label>
                       </div>
-                      <span class="fw-bold text-secondary">$48.00</span>
+                      <span class="fw-bold text-secondary flex-shrink-0 ms-2">$48.00</span>
                     </div>
                   </div>
 
                   <!-- Item 6 -->
-                  <div class="col-md-6">
-                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between h-100">
                       <div class="form-check">
                         <input class="form-check-input test-select-checkbox" type="checkbox" value="Essential Health Check (42 Params)" data-price="69" id="testCheckPkg1">
                         <label class="form-check-label fw-bold text-main ms-2" for="testCheckPkg1">
@@ -1411,13 +1417,13 @@
                           <span class="d-block small fw-normal text-muted">42 Parameters Baseline Health Check</span>
                         </label>
                       </div>
-                      <span class="fw-bold text-secondary">$69.00</span>
+                      <span class="fw-bold text-secondary flex-shrink-0 ms-2">$69.00</span>
                     </div>
                   </div>
 
                   <!-- Item 7 -->
-                  <div class="col-md-6">
-                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between h-100">
                       <div class="form-check">
                         <input class="form-check-input test-select-checkbox" type="checkbox" value="Complete Wellness Package (78 Params)" data-price="129" id="testCheck6">
                         <label class="form-check-label fw-bold text-main ms-2" for="testCheck6">
@@ -1425,13 +1431,13 @@
                           <span class="d-block small fw-normal text-muted">Full Body 78-Parameter Comprehensive</span>
                         </label>
                       </div>
-                      <span class="fw-bold text-secondary">$129.00</span>
+                      <span class="fw-bold text-secondary flex-shrink-0 ms-2">$129.00</span>
                     </div>
                   </div>
 
                   <!-- Item 8 -->
-                  <div class="col-md-6">
-                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between">
+                  <div class="col-md-6 col-sm-6">
+                    <div class="p-3 rounded-3 border bg-surface d-flex align-items-center justify-content-between h-100">
                       <div class="form-check">
                         <input class="form-check-input test-select-checkbox" type="checkbox" value="Executive Men's Health (84 Params)" data-price="169" id="testCheckPkg2">
                         <label class="form-check-label fw-bold text-main ms-2" for="testCheckPkg2">
@@ -1439,7 +1445,7 @@
                           <span class="d-block small fw-normal text-muted">84 Parameters, PSA & Testosterone</span>
                         </label>
                       </div>
-                      <span class="fw-bold text-secondary">$169.00</span>
+                      <span class="fw-bold text-secondary flex-shrink-0 ms-2">$169.00</span>
                     </div>
                   </div>
                 </div>
@@ -1460,7 +1466,7 @@
                   </div>
 
                   <div class="col-md-6">
-                    <label class="form-label-vitalis">Collection Method <span class="text-danger">*</span></label>
+                    <span class="form-label-vitalis d-block">Collection Method <span class="text-danger">*</span></span>
                     <div class="d-flex gap-3 pt-1">
                       <div class="form-check">
                         <input class="form-check-input" type="radio" name="collectionType" id="colLab" value="Lab Center Visit" checked>
@@ -1484,7 +1490,7 @@
                   </div>
 
                   <div class="col-12">
-                    <label class="form-label-vitalis">Preferred Time Window</label>
+                    <span class="form-label-vitalis d-block">Preferred Time Window</span>
                     <div class="time-slot-grid">
                       <div class="time-slot-btn selected" data-slot="06:30 AM - 07:30 AM">06:30 AM</div>
                       <div class="time-slot-btn" data-slot="07:30 AM - 08:30 AM">07:30 AM</div>
@@ -1520,11 +1526,11 @@
               </div>
 
               <!-- Wizard Controls (Prev & Next) -->
-              <div class="wizard-controls-bar d-flex flex-column flex-sm-row justify-content-center justify-content-lg-between align-items-center gap-3 mt-5 pt-3 border-top">
-                <button type="button" class="btn-vitalis btn-vitalis-outline order-2 order-sm-1" id="wizardPrevBtn" style="display: none; visibility: hidden;">
+              <div class="wizard-controls-bar d-flex align-items-center justify-content-between gap-3 mt-5 pt-3 border-top">
+                <button type="button" class="btn-vitalis btn-vitalis-outline" id="wizardPrevBtn" style="display: none; visibility: hidden;">
                   <i class="bi bi-arrow-left me-1"></i> Back
                 </button>
-                <button type="button" class="btn-vitalis btn-vitalis-primary order-1 order-sm-2" id="wizardNextBtn">
+                <button type="button" class="btn-vitalis btn-vitalis-primary ms-auto" id="wizardNextBtn">
                   Continue to Next Step <i class="bi bi-arrow-right ms-1"></i>
                 </button>
               </div>
@@ -1677,15 +1683,17 @@
       <div class="row g-4 justify-content-center">
         <!-- Testimonial 1 -->
         <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="testimonial-card">
-            <div class="testimonial-stars">
+          <div class="testimonial-card text-center">
+            <div class="testimonial-stars justify-content-center">
               <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
             </div>
             <p class="testimonial-text">
               "The home collection service was phenomenal. The phlebotomist arrived right at 7 AM, was exceptionally gentle with the blood draw, and my Complete Wellness report was emailed by 3 PM."
             </p>
-            <div class="testimonial-author">
-              <div class="author-avatar">EM</div>
+            <div class="testimonial-author text-center">
+              <div class="author-avatar mx-auto mb-2" style="width: 58px; height: 58px;">
+                <img src="assets/images/patient-eleanor.jpg" alt="Eleanor Miller">
+              </div>
               <div>
                 <h4 class="author-name">Eleanor Miller</h4>
                 <span class="author-service">Complete Wellness Panel</span>
@@ -1696,15 +1704,17 @@
 
         <!-- Testimonial 2 -->
         <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="testimonial-card">
-            <div class="testimonial-stars">
+          <div class="testimonial-card text-center">
+            <div class="testimonial-stars justify-content-center">
               <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
             </div>
             <p class="testimonial-text">
               "As someone who monitors HbA1c and lipid levels quarterly, Vitalis Labs is by far the cleanest and most tech-forward laboratory I've visited. Seamless report downloading online."
             </p>
-            <div class="testimonial-author">
-              <div class="author-avatar">DR</div>
+            <div class="testimonial-author text-center">
+              <div class="author-avatar mx-auto mb-2" style="width: 58px; height: 58px;">
+                <img src="assets/images/patient-david.jpg" alt="David Reynolds">
+              </div>
               <div>
                 <h4 class="author-name">David Reynolds</h4>
                 <span class="author-service">Diabetes & Cardiac Monitoring</span>
@@ -1715,15 +1725,17 @@
 
         <!-- Testimonial 3 -->
         <div class="col-lg-4 col-md-6 col-sm-6">
-          <div class="testimonial-card">
-            <div class="testimonial-stars">
+          <div class="testimonial-card text-center">
+            <div class="testimonial-stars justify-content-center">
               <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
             </div>
             <p class="testimonial-text">
               "My doctor specifically recommended Vitalis Labs for thyroid and hormone profiling due to their molecular analyzer precision. Prompt service and transparent pricing."
             </p>
-            <div class="testimonial-author">
-              <div class="author-avatar">SC</div>
+            <div class="testimonial-author text-center">
+              <div class="author-avatar mx-auto mb-2" style="width: 58px; height: 58px;">
+                <img src="assets/images/patient-sophia.jpg" alt="Sophia Chen">
+              </div>
               <div>
                 <h4 class="author-name">Sophia Chen</h4>
                 <span class="author-service">Thyroid & Hormone Profile</span>
@@ -1764,7 +1776,7 @@
             <div class="category-icon-box"><i class="bi bi-envelope-fill"></i></div>
             <h4 class="h5 fw-bold mb-1">Email Inquiries</h4>
             <p class="small text-muted mb-2">Reports & Questions</p>
-            <a href="mailto:support@vitalislabs.example" class="fw-bold text-secondary text-break" style="font-size: 0.88rem;">support@vitalislabs.example</a>
+            <a href="mailto:support@vitalislabs.example" class="fw-bold text-secondary text-break">support@vitalislabs.example</a>
           </div>
         </div>
 
@@ -1814,7 +1826,7 @@
                 <input type="tel" id="contactPhone" class="form-control-vitalis" placeholder="+1 (555) 000-0000">
               </div>
 
-              <div class="col-md-6">
+              <div class="col-12">
                 <label for="contactSubject" class="form-label-vitalis">Inquiry Subject</label>
                 <select id="contactSubject" class="form-select-vitalis">
                   <option value="General Test Question">General Test Question</option>
@@ -1870,6 +1882,27 @@
             </div>
           </div>
 
+          <!-- Interactive Google Map Card -->
+          <div class="contact-map-card p-3 shadow-sm mb-4 mt-4">
+            <div class="d-flex align-items-center justify-content-between mb-3 px-2 pt-1">
+              <h3 class="h6 fw-bold mb-0 text-main"><i class="bi bi-map-fill text-secondary me-2"></i>Central Lab Location Map</h3>
+              <a href="https://maps.google.com/?q=742+Diagnostic+Blvd,+New+York,+NY+10016" target="_blank" rel="noopener" class="small fw-semibold text-secondary text-decoration-none">
+                Directions <i class="bi bi-box-arrow-up-right ms-1"></i>
+              </a>
+            </div>
+            <div class="ratio ratio-16x9 rounded-3 overflow-hidden border">
+              <iframe 
+                class="contact-map-iframe"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.617541165781!2d-73.98513068459397!3d40.74844097932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1689000000000!5m2!1sen!2sus" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade" 
+                title="Vitalis Central Laboratory Location Map">
+              </iframe>
+            </div>
+          </div>
+
           <!-- Direct Phone Help Card -->
           <div class="p-4 rounded-4 text-white shadow-sm text-center text-md-start" style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);">
             <span class="badge-vitalis mb-2" style="background: rgba(0, 212, 190, 0.2); color: #00D4BE; border-color: rgba(0, 212, 190, 0.3);">24/7 Guidance</span>
@@ -1892,18 +1925,18 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
-          <span class="badge-vitalis mb-3" style="background: rgba(0, 212, 190, 0.2); color: #00D4BE; border-color: rgba(0, 212, 190, 0.3);">
+          <span class="badge-vitalis mb-3" style="background: rgba(255, 255, 255, 0.18); color: #FFFFFF; border: 1px solid rgba(255, 255, 255, 0.35); font-weight: 700;">
             Take Charge of Your Health
           </span>
-          <h2 class="text-white fw-bold mb-3">Your Health Deserves Clear Answers.</h2>
-          <p class="text-white-50 mb-4" style="font-size: 1.15rem;">
+          <h2 class="text-white fw-extrabold mb-3" style="font-weight: 800;">Your Health Deserves Clear Answers.</h2>
+          <p class="mb-4" style="font-size: 1.15rem; color: #F1F5F9 !important; font-weight: 500;">
             Book your diagnostic test today and take the next step toward informed health awareness with fast, confidential results.
           </p>
           <div class="d-flex flex-wrap justify-content-center gap-3">
             <a href="#book-a-test" class="btn-vitalis btn-vitalis-secondary btn-vitalis-lg">
               <i class="bi bi-calendar2-plus-fill"></i> Book a Test Now
             </a>
-            <a href="#contact" class="btn-vitalis btn-vitalis-outline text-white border-white btn-vitalis-lg">
+            <a href="#contact" class="btn-vitalis btn-vitalis-lg" style="background: #FFFFFF; color: #0A2540 !important; font-weight: 700; border: 1.5px solid #FFFFFF;">
               <i class="bi bi-telephone-fill"></i> Contact Laboratory
             </a>
           </div>
@@ -1918,25 +1951,28 @@
       <div class="row g-4">
         <!-- Column 1: Brand -->
         <div class="col-lg-4 col-md-6">
-          <div class="navbar-brand-vitalis mb-3">
+          <a class="navbar-brand-vitalis mb-3" href="#home">
             <div class="brand-logo-icon">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 2L15 8H9L12 2Z" fill="white"/>
                 <circle cx="12" cy="14" r="6" stroke="white" stroke-width="2.5"/>
+                <path d="M9 14H15" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 11V17" stroke="white" stroke-width="2" stroke-linecap="round"/>
               </svg>
             </div>
             <div class="brand-text">
-              <span class="brand-title text-white">VITALIS<span class="text-secondary">LABS</span></span>
+              <span class="brand-title">VITALIS<span>LABS</span></span>
+              <span class="brand-subtitle">Diagnostic Excellence</span>
             </div>
-          </div>
+          </a>
           <p class="footer-desc">
             Next-generation clinical laboratory providing high-precision pathology, robotic sample analysis, and preventive health screenings.
           </p>
           <div class="d-flex gap-2">
-            <a href="#" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm text-white" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm text-white" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
-            <a href="#" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm text-white" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-            <a href="#" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm text-white" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm footer-social-link" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm footer-social-link" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm footer-social-link" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="btn-vitalis btn-vitalis-outline btn-vitalis-sm footer-social-link" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
           </div>
         </div>
 
